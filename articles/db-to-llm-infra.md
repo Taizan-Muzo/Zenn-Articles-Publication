@@ -3,7 +3,7 @@ title: "DBからLLM Infraへの転身について"
 emoji: "💻"
 type: "tech"
 topics: ["LLM", "AI Infra", "SGLang", "キャリア", "転職"]
-published: false
+published: true
 published_at: "2026-03-07"
 ---
 
