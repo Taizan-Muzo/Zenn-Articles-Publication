@@ -3,7 +3,7 @@ title: "【Claude Code + Obsidian】知乎記事の整理に初挑戦：AI Infra
 emoji: "📚"
 type: "tech"
 topics: ["AI Infra", "Claude", "Obsidian", "Readwise", "ナレッジ管理"]
-published: false
+published: true
 published_at: "2026-03-13"
 ---
 
