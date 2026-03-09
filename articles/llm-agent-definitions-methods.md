@@ -3,7 +3,7 @@ title: "LLMベースインテリジェントエージェントの探索：定義
 emoji: "🤖"
 type: "tech"
 topics: ["llm", "ai-agent", "survey", "multi-agent"]
-published: false
+published: true
 ---
 
 # LLMベースインテリジェントエージェントの探索：定義、手法、展望
