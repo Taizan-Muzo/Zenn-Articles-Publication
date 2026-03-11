@@ -3,7 +3,7 @@ title: "【独占】DeepSeekが清華大学・北京大学と共同開発したD
 emoji: "⚡"
 type: "tech"
 topics: ["DeepSeek", "LLM", "AI Infra", "推論システム", "KV Cache"]
-published: true
+published: false
 published_at: "2026-03-11"
 ---
 
