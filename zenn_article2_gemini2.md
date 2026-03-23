@@ -3,7 +3,8 @@ title: "LLMはなぜ「知らない」と言えないのか？ハルシネーシ
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "InformationTheory", "Hallucination", "MachineLearning", "DeepLearning"]
-published: false
+published: true
+published_at: "2026-03-23"
 ---
 
 ## 1. はじめに：ハルシネーションは「学習不足」ではない？
