@@ -4,6 +4,7 @@ emoji: "🚀"
 type: "tech"
 topics: ["LLM", "RecommendationSystem", "Alibaba", "DeepLearning", "PromptEngineering"]
 published: true
+published_at: "2026-03-23"
 ---
 
 ## 1. はじめに：なぜ今、推薦システムにLLMが必要なのか
