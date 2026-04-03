@@ -3,7 +3,7 @@ title: "LLMの強化学習は「推論能力」を本当に引き出している
 emoji: "🔥"
 type: "tech"
 topics: ["LLM", "強化学習", "NeurIPS", "推論", "DeepSeek"]
-published: false
+published: true
 ---
 
 ## TL;DR
