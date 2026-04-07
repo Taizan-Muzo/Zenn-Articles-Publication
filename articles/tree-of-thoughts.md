@@ -1,5 +1,5 @@
 ---
-title: "Tree of Thoughts：大規模言語モデルによる慎重な問題解決"
+title: "Tree of Thoughts：慎重な問題解決手法"
 emoji: "🌳"
 type: "tech"
 topics: ["llm", "ai", "reasoning", "prompt-engineering"]

@@ -1,5 +1,5 @@
 ---
-title: "【詳解】RecGPT：アリババが明かすLLM推薦システムの決定版。リコールから説明性までを統合する「3塔アーキテクチャ」"
+title: "RecGPT：LLM推薦システムの3塔アーキテクチャ"
 emoji: "🚀"
 type: "tech"
 topics: ["LLM", "RecommendationSystem", "Alibaba", "DeepLearning", "PromptEngineering"]

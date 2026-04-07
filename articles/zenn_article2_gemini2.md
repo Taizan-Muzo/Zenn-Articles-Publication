@@ -1,5 +1,5 @@
 ---
-title: "LLMはなぜ「知らない」と言えないのか？ハルシネーションを情報理論から解き明かす：Rate-Distortion理論とブルームフィルタの類似性"
+title: "ハルシネーションを情報理論から解き明かす"
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "InformationTheory", "Hallucination", "MachineLearning", "DeepLearning"]

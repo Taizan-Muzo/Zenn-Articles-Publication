@@ -1,5 +1,5 @@
 ---
-title: "LLMベースインテリジェントエージェントの探索：定義、手法、展望"
+title: "LLMエージェントの定義と手法を整理する"
 emoji: "🤖"
 type: "tech"
 topics: ["llm", "ai-agent", "survey", "multi-agent"]

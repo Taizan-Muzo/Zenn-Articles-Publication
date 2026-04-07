@@ -1,5 +1,5 @@
 ---
-title: "Reasoning Shift: コンテキストがLLMの推論を「静かに」短くしてしまう問題"
+title: "Reasoning Shift：コンテキストが推論を短縮する"
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "推論", "Chain-of-Thought", "Test-time Scaling", "ロバスト性"]

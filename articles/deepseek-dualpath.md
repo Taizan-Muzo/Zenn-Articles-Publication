@@ -1,5 +1,5 @@
 ---
-title: "【独占】DeepSeekが清華大学・北京大学と共同開発したDualPathシステム、AI推論インフラのスループットを平均196%向上"
+title: "DualPath：DeepSeekの推論インフラ革命"
 emoji: "⚡"
 type: "tech"
 topics: ["DeepSeek", "LLM", "AI Infra", "推論システム", "KV Cache"]

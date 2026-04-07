@@ -1,5 +1,5 @@
 ---
-title: "【Claude Code + Obsidian】知乎記事の整理に初挑戦：AI Infra編"
+title: "Claude Codeで知乎記事を整理：AI Infra編"
 emoji: "📚"
 type: "tech"
 topics: ["AI Infra", "Claude", "Obsidian", "Readwise", "ナレッジ管理"]

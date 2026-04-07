@@ -1,5 +1,5 @@
 ---
-title: "LLMの強化学習は「推論能力」を本当に引き出しているのか？ — NeurIPS 2025最優秀論文候補の衝撃的結論"
+title: "RLはLLMの推論を本当に引き出せるのか？"
 emoji: "🔥"
 type: "tech"
 topics: ["LLM", "強化学習", "NeurIPS", "推論", "DeepSeek"]

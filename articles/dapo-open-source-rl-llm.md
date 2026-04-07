@@ -1,5 +1,5 @@
 ---
-title: "DAPO: 大規模LLM強化学習をオープンソースで実現する4つの鍵技術"
+title: "DAPO：オープンソースLLM強化学習システム"
 emoji: "🔓"
 type: "tech"
 topics: ["LLM", "強化学習", "DAPO", "GRPO", "オープンソース"]

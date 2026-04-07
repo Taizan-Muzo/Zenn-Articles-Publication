@@ -1,5 +1,5 @@
 ---
-title: "TransformerのAttentionに「一本の道」を開ける — NeurIPS 2025最優秀論文「Gated Attention」を読む"
+title: "Gated Attention：NeurIPS 2025最優秀論文"
 emoji: "🏆"
 type: "tech"
 topics: ["LLM", "Transformer", "NeurIPS", "Attention", "DeepLearning"]

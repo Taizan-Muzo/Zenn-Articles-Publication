@@ -1,5 +1,5 @@
 ---
-title: "2025年総括：LLM推論システムイノベーションの4大トレンドと5つの代表作"
+title: "LLM推論システムの4大トレンドと代表作"
 emoji: "🚀"
 type: "tech"
 topics: ["LLM", "AI Infra", "推論システム", "DeepSeek", "vLLM"]
