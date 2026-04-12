@@ -3,7 +3,7 @@ title: "Dense vs MoE推論モデルの実力比較"
 emoji: "⚖️"
 type: "tech"
 topics: ["LLM", "MoE", "Gemma", "Phi", "Qwen3", "ベンチマーク"]
-published: false
+published: true
 ---
 
 # Dense vs MoE推論モデルの実力比較：Gemma 4, Phi-4, Qwen3を徹底検証
