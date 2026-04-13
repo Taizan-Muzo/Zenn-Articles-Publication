@@ -3,7 +3,7 @@ title: "SPPO: PPOを超える長距離推論RL"
 emoji: "⚡"
 type: "tech"
 topics: ["LLM", "強化学習", "推論モデル", "ACL2026"]
-published: false
+published: true
 ---
 
 ## TL;DR
