@@ -3,7 +3,7 @@ title: "偏好対からLLMは何を学ぶか：Delta分解でDPOを効率化"
 emoji: "🔬"
 type: "tech"
 topics: ["LLM", "DPO", "RLHF", "推論モデル", "AI論文精読"]
-published: false
+published: true
 ---
 
 # 偏好対からLLMは何を学ぶのか？Deltaの分解とデータ効率化
