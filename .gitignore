@@ -1,2 +1,4 @@
 .workbuddy/
 gen_figures.py
+gen_figures_*.py
+.codebuddy/
