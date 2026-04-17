@@ -3,7 +3,7 @@ title: "RLVRの「自信過剰」を直す：推論と校準を分離するDCPO"
 emoji: "🔧"
 type: "tech"
 topics: ["LLM", "強化学習", "RLVR", "校準", "GRPO"]
-published: false
+published: true
 ---
 
 ## TL;DR
