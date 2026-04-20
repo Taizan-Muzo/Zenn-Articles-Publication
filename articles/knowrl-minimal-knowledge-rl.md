@@ -3,7 +3,8 @@ title: "RLVRの報酬希薄性を「最小十分な知識」で突破するKnowR
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "強化学習", "推論モデル", "NeurIPS2025"]
-published: false
+published: true
+published_at: 2026-04-20
 ---
 
 RLVR（RL with Verifiable Rewards）が推論モデルの訓練で大きな成果を上げている一方、難問に対する**報酬希薄性（reward sparsity）**という根本的なボトルネックがある。全体の推論軌跡が間違っている場合、 advantage がゼロになり勾配が得られない——この問題にどう取り組むか。
