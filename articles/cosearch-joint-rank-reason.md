@@ -3,7 +3,7 @@ title: "検索もRLで鍛える：CoSearchがAgentic Searchの検索ボトルネ
 emoji: "🔍"
 type: "tech"
 topics: ["LLM", "AgenticSearch", "ReinforcementLearning", "InformationRetrieval"]
-published: false
+published: true
 ---
 
 # はじめに
