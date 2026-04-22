@@ -3,7 +3,7 @@ title: "Q/Kの「大振幅」だけを更新：LongActが長文脈RLの壁を破
 emoji: "⚡"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "長文脈"]
-published: true
+published: false
 ---
 
 # はじめに

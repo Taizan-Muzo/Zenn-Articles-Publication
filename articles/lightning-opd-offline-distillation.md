@@ -3,7 +3,7 @@ title: "教師サーバー不要で4倍高速：Lightning OPDとOffline蒸留の
 emoji: "⚡"
 type: "tech"
 topics: ["LLM", "強化学習", "蒸留", "推論モデル", "後処理学習"]
-published: true
+published: false
 ---
 
 ## TL;DR

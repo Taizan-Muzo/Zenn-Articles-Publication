@@ -3,7 +3,7 @@ title: "RLVRの報酬希薄性を「最小十分な知識」で突破するKnowR
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "強化学習", "推論モデル", "NeurIPS2025"]
-published: true
+published: false
 published_at: 2026-04-20
 ---
 

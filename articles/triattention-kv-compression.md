@@ -4,7 +4,7 @@ emoji: "📐"
 type: "tech"
 topics: ["LLM", "推論最適化", "KVキャッシュ", "Attention", "効率化"]
 published: true
-published_at: "2026-04-10"
+published_at: "2026-04-22"
 ---
 
 # はじめに

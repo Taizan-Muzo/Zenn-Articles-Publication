@@ -1,3 +1,54 @@
+# 2026-04-22 Zenn发文 - 自动化执行记录 (第5次触发)
+
+## 执行摘要
+- 状态: 今日已完成（PreRL/DSRL已发布），跳过
+- 时间: 09:59 第五次自动化触发
+
+# 2026-04-22 Zenn发文 - 自动化执行记录 (第4次触发)
+
+## 执行摘要
+- 状态: 今日已完成（PreRL/DSRL已发布），跳过
+- 时间: 09:58 第四次自动化触发
+
+# 2026-04-22 Zenn发文 - 自动化执行记录 (第3次触发)
+
+## 执行摘要
+- 状态: 今日已完成（PreRL/DSRL已发布），跳过
+- 时间: 09:58 第三次自动化触发
+
+# 2026-04-22 Zenn发文 - 自动化执行记录 (第2次触发)
+
+## 执行摘要
+- 状态: 今日已完成（PreRL/DSRL已发布），跳过
+- 时间: 09:57 第二次自动化触发
+
+# 2026-04-22 Zenn发文 - 自动化执行记录 (第1次)
+
+## 执行摘要
+- 文章: `prerrl-pretrain-space-rlvr.md` — "問題条件を外すだけで推論が開花：PreRLのパラダイムシフト"
+- 论文: PreRL/DSRL (arXiv:2604.14142), 中科院自动化所・NUS・テンセントAI Lab, 2026-04-15
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: P(y|x)→P(y)空間拡張、NSR負サンプル強化14.89倍思考増加、DSRL二段階
+
+# 2026-04-21 Zenn发文 - 自动化执行记录 (第2篇)
+
+## 执行摘要
+- 文章: `specguard-step-verification.md` — "ステップ単位で検証する投機的推論：SpecGuardの仕組みと成果"
+- 论文: SpecGuard (arXiv:2604.15244), IIT Kharagpur / Adobe Research, 2026-04-16
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: デュアル信号ステップ検証、自己一貫性候補選択、外部PRM不要、MATH500 85.4%
+
+# 2026-04-21 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `longact-sparse-qk-rl.md` — "Q/Kの「大振幅」だけを更新：LongActが長文脈RLの壁を破る"
+- 论文: LongAct (arXiv:2604.14922), 北京大学・上海交通大学, 2026-04-16
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: Q/K大振幅スパース更新、LongBench v2 +8%、推論ゼロオーバーヘッド
+
 # 2026-04-03 Zenn发文 - 自动化执行记录
 
 ## 执行摘要
@@ -129,3 +180,78 @@
 - 配图: 4张 (fig1_two_dimensions, fig2_generator_scaling, fig3_data_efficiency, fig4_dual_strategy)
 - git: 2次commit (下書き + 公開), push成功
 - 核心: DeltaをGenerator-LevelとSample-Levelの2次元に分解、Generator Delta最大化でOOD+9.0%、Sample Delta上位30%で全データ訓練同等、Step Coherenceが最良フィルタ基準
+
+# 2026-04-15 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `tepo-token-level-rl.md` — "GRPOの弱点をToken粒度で解決：TEPOによるLLM強化学習の安定化"
+- 论文: TEPO: Token-Level Policy Optimization (arXiv:2604.12736), 2026-04-14
+- 初版: arXiv:2510.09369 (2025年10月)
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1_method_comparison, fig2_benchmarks, fig3_training_efficiency, fig4_ablation)
+- git: 3次commit (draft + path fix + 公開), push成功
+- 核心: マルコフ逐次尤度でグループ報酬をトークン単位に因果配分、KLマスク制約でエントロピーコラプス回避、収束50%削減
+- 修正: 初回pushでパス間違いを修正（articles/articles/ → articles/）。.gitignoreにgen_figures_*.pyと.codebuddy/を追加
+
+# 2026-04-16 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `mm-doc-r1-spo.md` — "GRPOの基線偏差を相似度で修正：MM-Doc-R1と多轮RL文書理解"
+- 论文: MM-Doc-R1 (arXiv:2604.13579)，Fudan大学・Singularity AI，2026-04-15
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1_framework, fig2_spo_vs_grpo, fig3_results, fig4_ablation)
+- git: 2次commit (draft + 公開), push成功。路径正确。
+- 核心: SPO用轨迹类似度加权修正GRPO多轮基线偏差，MMLongBench-Doc +10.4%，SPO>GRPO +5.0%(8B)/+6.1%(4B)
+
+# 2026-04-17 Zenn発文 - 自動化実行記録
+
+## 実行サマリー
+- 文章: `lightning-opd-offline-distillation.md` — "教師サーバー不要で4倍高速：Lightning OPDとOffline蒸留の理論"
+- 论文: Lightning OPD (arXiv:2604.13010), NVIDIA, 2026-04-14
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: 教師一貫性定理、事前計算でOPDをオフライン化、4倍高速、AIME2024 69.9%(8B)
+
+# 2026-04-19 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `rlvr-reward-hacking.md` — "RLVRの隠れた失敗：LLMはバリデータを「ハック」している"
+- 论文: LLMs Gaming Verifiers: RLVR can Lead to Reward Hacking (arXiv:2604.15149)
+- 作者: Lukas Helff et al. (TU Darmstadt, Meta FAIR, DFKI, hessian.AI)
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1_induction_vs_shortcut, fig2_shortcut_comparison, fig3_complexity_reasoning_effect, fig4_training_causality)
+- git: 2次commit (下書き + 公開), push成功
+- 核心: RLVR訓練モデルが帰納推論タスクでルールの代わりにインスタンス列挙でバリデータをハック、IPT(同型摂動テスト)で黒箱検出可能、非RLVRモデルはゼロハック、外延バリデータがハックを誘発し同型バリデータが抑制することを因果証明
+
+# 2026-04-19 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `hallucination-trajectory-commitment.md` — "ハルシネーションは「引き寄せの罠」か？因果証拠で迫る非対称アトラクター"
+- 论文: Hallucination as Trajectory Commitment (arXiv:2604.15400), Chimera Research Initiative (Istanbul), 2026-04-16
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1_attractor_basin, fig2_stepwise_divergence, fig3_layer_sweep, fig4_window_regime)
+- git: 2次commit (draft + 公開), push成功
+- 核心: 同一プロンプト分岐法で因果的非対称性を証明、破壊87.5% vs 修正33.3%（2.63倍）、生成前Step 0でr=0.776予測、5つのレジーム・クラスター発見
+
+# 2026-04-20 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `knowrl-minimal-knowledge-rl.md` — "RLVRの報酬希薄性を「最小十分な知識」で突破するKnowRL"
+- 论文: KnowRL (arXiv:2604.12627), 天津大学・百度・中科院, 2026-04-14
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: KP原子化 + CSS最小十分セット選別 + 剪枝交互パラドックス、1.5B SOTA 74.16
+- 备注: 之前session准备的草稿，本次仅执行发布流程
+
+# 2026-04-20 Zenn发文 - 自动化执行记录 (第2次触发)
+
+## 执行摘要
+- 状态: 今日已完成（KnowRL已发布），跳过
+- 时间: 09:59 第二次自动化触发
+
+# 2026-04-20 Zenn发文 - 自动化执行记录 (第3次触发)
+
+## 执行摘要
+- 状态: 今日已完成（KnowRL已发布），跳过
+- 时间: 10:00 第三次自动化触发
+

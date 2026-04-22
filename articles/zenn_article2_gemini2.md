@@ -3,7 +3,7 @@ title: "ハルシネーションを情報理論から解き明かす"
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "InformationTheory", "Hallucination", "MachineLearning", "DeepLearning"]
-published: true
+published: false
 published_at: "2026-03-23"
 ---
 
