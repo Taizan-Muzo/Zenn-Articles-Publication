@@ -3,7 +3,8 @@ title: "ステップ単位で検証する投機的推論：SpecGuardの仕組み
 emoji: "🛡️"
 type: "tech"
 topics: ["LLM", "推論", "高速化", "投機的デコーディング"]
-published: false
+published: true
+published_at: "2026-04-23"
 ---
 
 # はじめに

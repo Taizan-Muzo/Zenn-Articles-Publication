@@ -1,3 +1,12 @@
+# 2026-04-22 Zenn发文 - 自动化执行记录 (第2篇 - CoSearch)
+
+## 执行摘要
+- 文章: `cosearch-joint-rank-reason.md` — "検索もRLで鍛える：CoSearchがAgentic Searchの検索ボトルネックを解消"
+- 论文: CoSearch (arXiv:2604.17555), UMass Amherst / Snap Research, 2026-04-19
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: 推論+生成型ランカーGRPO同時訓練、セマンティックグルーピング、7B+6.6%/3B+10.0%
+
 # 2026-04-22 Zenn发文 - 自动化执行记录 (第5次触发)
 
 ## 执行摘要
