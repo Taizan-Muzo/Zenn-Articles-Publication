@@ -3,7 +3,7 @@ title: "PPOかGRPOか？Explained Varianceが解くRLVRの最大のジレンマ"
 emoji: "⚖️"
 type: "tech"
 topics: ["LLM", "強化学習", "PPO", "GRPO", "EVPO"]
-published: false
+published: true
 ---
 
 # PPOかGRPOか？Explained Varianceが解くRLVRの最大のジレンマ
