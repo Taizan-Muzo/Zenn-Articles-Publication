@@ -3,7 +3,7 @@ title: "構造化記憶でAgentの「長期記憶」を実現するStructMem"
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "Agent", "Memory", "ACL2026"]
-published: false
+published: true
 published_at: "2026-04-26"
 ---
 
