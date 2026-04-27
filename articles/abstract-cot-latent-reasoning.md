@@ -3,7 +3,7 @@ title: "Abstract-CoT：言葉を使わず思考するLLM推論の効率化"
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "ChainOfThought", "推論最適化", "強化学習", "効率化"]
-published: false
+published: true
 ---
 
 # Abstract-CoT：言葉を使わず思考するLLM推論の効率化
