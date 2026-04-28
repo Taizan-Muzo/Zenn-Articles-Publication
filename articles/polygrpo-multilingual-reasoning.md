@@ -3,7 +3,7 @@ title: "polyGRPO：言語を潜在変数にする多言語推論のRL最適化"
 emoji: "🌐"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "多言語"]
-published: false
+published: true
 ---
 
 ## TL;DR
