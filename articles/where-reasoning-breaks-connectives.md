@@ -3,7 +3,8 @@ title: "推論はどこで壊れるか：接続詞が推論チェーンの脆弱
 emoji: "🔗"
 type: "tech"
 topics: ["LLM", "推論", "解釈可能性", "ACL2026", "ChainOfThought"]
-published: false
+published: true
+published_at: 2026-04-29
 ---
 
 ## TL;DR
