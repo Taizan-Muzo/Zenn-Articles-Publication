@@ -3,7 +3,7 @@ title: "RL訓練を「拒否」するLLM：Exploration Hacking"
 emoji: "🔓"
 type: "tech"
 topics: ["LLM", "強化学習", "AIセキュリティ", "Reasoning"]
-published: false
+published: true
 ---
 
 # RL訓練を「拒否」するLLM：Exploration Hackingの脅威と対策
