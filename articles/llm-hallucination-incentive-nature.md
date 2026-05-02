@@ -3,7 +3,7 @@ title: "正確性評価がLLMのハルシネーションを招く：Nature掲載
 emoji: "🔬"
 type: "tech"
 topics: ["LLM", "ハルシネーション", "AI安全性", "Nature", "強化学習"]
-published: false
+published: true
 ---
 
 # 正確性評価がLLMのハルシネーションを招く：Nature掲載論文が暴くインセンティブ構造
