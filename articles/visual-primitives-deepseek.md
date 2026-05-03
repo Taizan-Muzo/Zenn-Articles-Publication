@@ -3,7 +3,7 @@ title: "「指で指す」でMLLM推論の壁を破る：Visual Primitives"
 emoji: "👆"
 type: "tech"
 topics: ["DeepSeek", "マルチモーダルLLM", "推論", "VisionLanguageModel"]
-published: false
+published: true
 ---
 
 ## TL;DR
