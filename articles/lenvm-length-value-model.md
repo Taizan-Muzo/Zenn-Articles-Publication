@@ -3,7 +3,7 @@ title: "LenVM：価値推定で解くtokenレベル長さモデリング"
 emoji: "📏"
 type: "tech"
 topics: ["LLM", "強化学習", "推論効率化", "価値関数", "長さ制御"]
-published: false
+published: true
 published_at: 2026-05-05
 ---
 
