@@ -13,7 +13,7 @@ published_at: 2026-05-04
 
 今回紹介する **Latent-GRPO**（arXiv: 2604.27998）は、この問題にGRPOの視点から切り込み、**「なぜGRPOをそのまま潜在空間に適用すると壊れるのか」を3つの結合したボトルネックとして系統的に特定**した上で、それぞれに対応する解決策を提案する。中科院計算技術研究所・中科院大学・中科院自動化研究所による2026年4月30日公開の論文だ。
 
-![fig1](/images/latent-grpo/fig1_bottlenecks.png)
+![fig1](/images/latent-grpo-reasoning/fig1_bottlenecks.png)
 
 # TL;DR
 
@@ -89,13 +89,13 @@ $$M_{j,t} = \begin{cases} 0, & j \in \mathcal{G}_{\text{correct}} \setminus \{j^
 
 ## 効率性と精度のトレードオフ打破
 
-![fig2](/images/latent-grpo/fig2_efficiency_accuracy.png)
+![fig2](/images/latent-grpo-reasoning/fig2_efficiency_accuracy.png)
 
 低難易度（LLaMA-3.2-1B）では、Latent-GRPOは明示的GRPOに対して**4.44倍短い**推論チェーンで**同等以上の精度**を達成した。高難易度（Qwen2.5-MATH-7B）では、チェーン長を**3.31倍短縮**しながら平均Pass@1で**+4.27ポイント**の大幅改善。
 
 ## 高難度ベンチマークの詳細
 
-![fig3](/images/latent-grpo/fig3_high_diff_benchmarks.png)
+![fig3](/images/latent-grpo-reasoning/fig3_high_diff_benchmarks.png)
 
 Qwen2.5-MATH-7Bでの結果：
 
@@ -110,7 +110,7 @@ AIME24での+9.95ポイント改善は、チェーン長が2.9倍短い状態で
 
 ## Pass@k：多次数サンプリングでの圧倒的優位性
 
-![fig4](/images/latent-grpo/fig4_passk_ablation.png)
+![fig4](/images/latent-grpo-reasoning/fig4_passk_ablation.png)
 
 潜在推論の強みはPass@kでより顕著になる。Gumbelノイズ注入（noise=1.0）による多数回サンプリングで：
 

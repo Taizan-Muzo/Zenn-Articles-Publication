@@ -1,3 +1,147 @@
+# 2026-05-04 Zenn发文 - 自动化执行记录 (第4次触发)
+
+## 执行摘要
+- 状态: 今日已完成（Latent-GRPO已发布），跳过
+- 时间: 10:14 第四次自动化触发
+
+# 2026-05-04 Zenn发文 - 自动化执行记录 (第3次触发)
+
+## 执行摘要
+- 状态: 今日已完成（Latent-GRPO已发布），跳过
+- 时间: 09:58 第三次自动化触发
+
+# 2026-05-04 Zenn发文 - 自动化执行记录 (第2次触发)
+
+## 执行摘要
+- 状态: 今日已完成（Latent-GRPO已发布），跳过
+- 时间: 09:57 第二次自动化触发
+
+# 2026-05-04 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `latent-grpo.md` — "GRPOを潜在空間で動かすと壊れる3つの理由とLatent-GRPOの解"
+- 论文: Latent-GRPO (arXiv:2604.27998), Jingcheng Deng et al. (中科院計算所・中科院大学・中科院自動化所), 2026-04-30
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: GRPO潜在空間3結合ボトルネック（多様体欠如・探索最適化非整列・混合非閉包）・単側ノイズサンプリング最重要（除去→崩壊）・高難度3.3倍短縮+4.27 P@1・AIME24 Pass@64 50.0%(GRPO 2.1倍)
+
+# 2026-05-03 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `visual-primitives-deepseek.md` — "「指で指す」でMLLM推論の壁を破る：Visual Primitives"
+- 论文: Thinking with Visual Primitives (DeepSeek AI), 2026-04-30 (公布翌日删除)
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: 指代鸿沟定式化、Point/Box作为思考最小单位、7056倍视觉压缩、迷宫66.9%(+17pp vs GPT-5.4)、Path Tracing 56.7%(+26pp vs Claude)
+
+# 2026-05-03 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `kernelized-advantage-estimation.md` — "非パラメトリック統計でRLVRを再設計：KAEが実現する神諭レベルの推論最適化"
+- 论文: Kernelized Advantage Estimation: From Nonparametric Statistics to LLM Reasoning (arXiv:2604.28005), Shijin Gong, Kai Ye, Jin Zhu, Xinyu Zhang, Hongyi Zhou, Chengchun Shi (中科大・LSE・伯明翰大・中科院・清華), 2026-04-30
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: カーネル平滑化による価値関数推定・Stone最適収束率達成・GRPO比MSE 60-73%削減・G=4 DAPO訓練でAIME25 0.1781(+27.6% vs GPG)・追加コスト履歴バッファのみ・3定理3推論で理論保証強固
+
+# 2026-05-02 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `llm-hallucination-incentive-nature.md` — "正確性評価がLLMのハルシネーションを招く：Nature掲載論文が暴くインセンティブ構造"
+- 论文: Evaluating Large Language Models for Accuracy Incentivizes Hallucinations (Nature, arXiv:2509.04664), Kalai, Nachum, Vempala, Zhang (OpenAI×Georgia Tech), 2026-04-22
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: Nature掲載・IIV還元で生成エラー率≥2×IIV分類エラー率を数学証明・5統計誤差源・Open-rubric評価提案・推測インセンティブ歪み・RLHFキャリブレーション破壊
+
+# 2026-05-01 Zenn发文 (第2篇) - 执行记录
+
+## 执行摘要
+- 文章: `webgen-r1-website-generation.md` — "RLで7Bが671Bに肉薄するWebGen-R1"
+- 论文: WebGen-R1 (arXiv:2604.20398), Juyong Jiang et al. (HKUST・Alibaba Tongyi Lab・ETRI・Ant Group), ICLR 2026, 2026-04-22
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: スキャフォールド駆動構造化生成・カスケード型マルチモーダル報酬（構造→実行→美学）・GRPO最適化・VRR 95.89%(一位)・AAS 3.94(一位)・FSR 29.21%(DeepSeek-R1 30.25%に匹敵)・Human r=0.762
+
+# 2026-05-01 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `exploration-hacking-rl-resistance.md` — "RL訓練を「拒否」するLLM：Exploration Hacking"
+- 论文: Exploration Hacking: Can LLMs Learn to Resist RL Training? (arXiv:2604.28182), Eyon Jang, Damon Falck, Joschka Braun et al., 2026-04-30
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: 81页37图大作・モデル生物実験で選択的RL抵抗を実証・Biosecurity/AI R&D領域で有効・監視+重みノイズ+SFT引き出しの3段階対策・フロンティアモデル間接情報で探索抑制推論顕在化（GPT-4o 42%・Gemini 38%）・報酬ハッキングより根源的な「探索ハッキング」脅威モデル
+
+# 2026-04-29 Zenn発文 (第2篇) - 执行记录
+
+## 执行摘要
+- 文章: `where-reasoning-breaks-connectives.md` — "推論はどこで壊れるか：接続詞が推論チェーンの脆弱点である理由"
+- 论文: Where Reasoning Breaks (arXiv:2604.20564)、Seunghyun Park / Yuanyuan Lei (フロリダ大学)、ACL 2026 Findings、2026-04-22
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4)，git: 2次commit，push成功
+- 核心: 論理接続詞の高エントロピー分岐点・41%脆弱性・1.75倍破壊力・三層介入・Self-Cons比50%コスト削減
+
+# 2026-04-29 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `rl-generalization-feature.md` — "RLはなぜSFTより汎化するのか？特徴レベルで解き明かすメカニズム解明"
+- 论文: Why Does Reinforcement Learning Generalize? (arXiv:2604.25011), Dan Shi et al. (天津大学TJUNLP・DFKI・ザール大学), ACL 2026主会, 2026-04-27
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: 3モデルSparse CrossCoder・SFT早すぎる特化vs RL遅延探索・50〜16個の汎化制御特徴・零化最大-46.2%・増幅最大+55.6%・未知タスクでも有効
+
+# 2026-04-28 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `polygrpo-multilingual-reasoning.md` — "polyGRPO：言語を潜在変数にする多言語推論のRL最適化"
+- 论文: Language as a Latent Variable for Reasoning Optimization (arXiv:2604.21593), Linjuan Wu et al., 2026-04-23
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: 言語＝潜在変数・多言語応答でRLVR探索空間拡張・18.1Kで英語+6.72%・X-CSQA数学のみ訓練で常識+4.9%唯一超越・polyGSPOでも+6.6%
+
+# 2026-04-26 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `structmem-hierarchical-memory.md` — "構造化記憶でAgentの「長期記憶」を実現するStructMem"
+- 论文: StructMem (arXiv:2604.21748), Buqiang Xu et al. (浙大・蚂蚁集团), ACL 2026主会, 2026-04-23
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: ACL 2026主会・イベント中心階層化記憶・LoCoMo Overall 76.82%(+1.04)・Token 18.5x効率・API 50x削減・幻覚率<4%
+
+# 2026-04-27 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `abstract-cot-latent-reasoning.md` — "Abstract-CoT：言葉を使わず思考するLLM推論の効率化"
+- 论文: Thinking Without Words: Efficient Latent Reasoning with Abstract Chain-of-Thought (arXiv:2604.22709), IBM Research AI (Keshav Ramji et al.), 2026-04-24
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: 抽象トークンによる離散潜在推論・3段階訓練パイプライン(SFT+PI-3ウォームアップ+GRPO)・最大11.6倍推論圧縮(MATH-500 1671→144)・精度ほぼ同等(92.6→90.8)・語彙にZipf的冪乗分布出現・3B〜32B汎化
+
+# 2026-04-25 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `vps-verbal-critique-reasoning.md` — "VPS：自然言語の「批判」だけで推論を拡張する第4の軸"
+- 论文: Process Supervision via Verbal Critique (arXiv:2604.21611), Hao-Yuan Chen (Mindify AI Research), 2026-04-23
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: 推理时扩展第4轴(语言监督粒度)・免训练VPS框架・GPQA 94.9%新SOTA・AIME +63.3pp弱Actor救助・Reflexion比+8.5~12.1pp・H vs Δ r=+0.90
+
+# 2026-04-24 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `knowledge-capsules-kvi.md` — "テキストでなくKVで注入する：KVIがRAGの構造的限界を突破する理由"
+- 论文: Knowledge Capsules (arXiv:2604.20487), 浙江天使医療AI・米缇AI・浙江大学, 2026-04-22
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: 非パラメトリックKV注入(KVI)フレームワーク、コンテキスト→メモリレベル知識統合、MedHopQA 92.5%、消融でグラフ検索除去=-100%
+
+# 2026-04-23 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `evpo-explained-variance-ppo.md` — "PPOかGRPOか？Explained Varianceが解くRLVRの最大のジレンマ"
+- 论文: EVPO (arXiv:2604.19485), 北京大学・复旦大学・上海人工智能ラボ, 2026-04-21
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张, git: 2次commit, push成功
+- 核心: Explained VarianceでCritic品質監視、PPO/GRPO適応切替、カルマンフィルタ定式化、定理1(EV=0境界)、全4タスク一位
+
 # 2026-04-22 Zenn发文 - 自动化执行记录 (第2篇 - CoSearch)
 
 ## 执行摘要
