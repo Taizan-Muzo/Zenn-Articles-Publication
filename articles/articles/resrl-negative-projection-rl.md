@@ -3,7 +3,7 @@ title: "ResRL：負サンプルの「残差」だけでRLVRを強化する投影
 emoji: "🧮"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "ICML2026"]
-published: false
+published: true
 published_at: "2026-05-06"
 ---
 
