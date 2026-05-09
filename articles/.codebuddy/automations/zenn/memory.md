@@ -1,3 +1,21 @@
+# 2026-05-06 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `articles/resrl-negative-projection-rl.md` — "ResRL：負サンプルの「残差」だけでRLVRを強化する投影勾配法"
+- 论文: ResRL (arXiv:2605.00380), Zihan Lin et al., ICML 2026, 2026-05-01
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: SVD低ランク正部分空間投影で負サンプル残差分離・NSR比数学+9.4%・コード+9.6%・Agent+10.4%・12ベンチマーク平均一位・KL不要・Pass@1とPass@128同時改善
+
+# 2026-05-05 Zenn发文 - 自动化执行记录
+
+## 执行摘要
+- 文章: `lenvm-length-value-model.md` — "LenVM：価値推定で解くtokenレベル長さモデリング"
+- 论文: LenVM (arXiv:2604.27039), Zhen Zhang et al. (UCSB・Apple), 2026-04-29
+- 状态: ✅ 已发布 (published: true)
+- 配图: 4张 (fig1-fig4), git: 2次commit, push成功
+- 核心: 生成長さをRL価値推定で定式化・LIFEBench 64.8(7Bでクローズド超過)・GSM8K 200tokenで63%(硬截断6%の10倍)・PPO互換
+
 # 2026-05-04 Zenn发文 - 自动化执行记录 (第4次触发)
 
 ## 执行摘要
