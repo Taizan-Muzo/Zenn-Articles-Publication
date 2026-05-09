@@ -4,7 +4,7 @@ emoji: "🔬"
 type: "tech"
 topics: ["LLM", "強化学習", "解釈可能性", "MechanisticInterpretability", "ACL2026"]
 published: false
-published_at: 2026-04-29
+published_at: 2026-05-09
 ---
 
 ## TL;DR

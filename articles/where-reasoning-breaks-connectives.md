@@ -4,7 +4,7 @@ emoji: "🔗"
 type: "tech"
 topics: ["LLM", "推論", "解釈可能性", "ACL2026", "ChainOfThought"]
 published: true
-published_at: 2026-04-29
+published_at: 2026-05-09
 ---
 
 ## TL;DR
