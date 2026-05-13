@@ -3,7 +3,8 @@ title: "RLで7Bが671Bに肉薄するWebGen-R1"
 emoji: "🌐"
 type: "tech"
 topics: ["LLM", "強化学習", "コード生成", "Web開発", "ICLR2026"]
-published: false
+published: true
+published_at: "2026-05-13"
 ---
 
 # TL;DR
