@@ -3,7 +3,7 @@ title: "ハルシネーションは「引き寄せの罠」か？因果証拠で
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "ハルシネーション", "MechanisticInterpretability", "Transformer"]
-published: true
+published: false
 ---
 
 # ハルシネーションは「引き寄せの罠」か？因果証拠で迫る非対称アトラクター
