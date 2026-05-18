@@ -3,7 +3,7 @@ title: "OpenDeepThink: Bradley-Terryで並列推論の壁を突破、Codeforces 
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "推論", "Test-timeCompute", "BradleyTerry"]
-published: false
+published: true
 ---
 
 # OpenDeepThink: Bradley-Terry集約で並列推論の選択ボトルネックを解消
