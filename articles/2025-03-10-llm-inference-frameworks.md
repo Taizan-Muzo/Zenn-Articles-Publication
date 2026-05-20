@@ -3,7 +3,8 @@ title: "2025年LLM推論フレームワーク分析ガイド"
 emoji: "🤖"
 type: "tech"
 topics: ["llm", "ai", "infrastructure", "deepseek", "vllm"]
-published: false
+published: true
+published_at: 2026-05-20
 ---
 
 # 2025 年最新大規模言語モデル（LLM）推論フレームワーク分析と选型ガイド

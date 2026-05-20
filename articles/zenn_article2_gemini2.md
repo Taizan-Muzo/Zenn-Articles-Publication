@@ -3,8 +3,8 @@ title: "ハルシネーションを情報理論から解き明かす"
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "InformationTheory", "Hallucination", "MachineLearning", "DeepLearning"]
-published: false
-published_at: "2026-03-23"
+published: true
+published_at: 2026-05-20
 ---
 
 ## 1. はじめに：ハルシネーションは「学習不足」ではない？
