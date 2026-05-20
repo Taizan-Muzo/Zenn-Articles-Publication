@@ -3,7 +3,8 @@ title: "K2V: RLVRを知識密集領域へ拡張する自動検証フレームワ
 emoji: "🔬"
 type: "tech"
 topics: ["LLM", "RLVR", "KnowledgeGraph", "ReinforcementLearning"]
-published: false
+published: true
+published_at: 2026-05-20
 ---
 
 # K2V: Knowledge-to-Verification — RLVRを知識密集領域へ拡張する自動検証フレームワーク
