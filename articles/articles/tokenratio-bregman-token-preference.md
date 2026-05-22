@@ -3,7 +3,7 @@ title: "トークンレベルBregman最適化でDPOを超えるTBPO"
 emoji: "🎯"
 type: "tech"
 topics: ["LLM", "DPO", "PreferenceOptimization", "AI"]
-published: false
+published: true
 ---
 
 ## TL;DR
