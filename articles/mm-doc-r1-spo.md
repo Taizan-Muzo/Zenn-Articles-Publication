@@ -3,7 +3,8 @@ title: "GRPOの基線偏差を相似度で修正：MM-Doc-R1と多轮RL文書理
 emoji: "📄"
 type: "tech"
 topics: ["LLM", "強化学習", "マルチモーダル", "RAG", "Agent"]
-published: false
+published: true
+published_at: 2026-05-09
 ---
 
 ## TL;DR
