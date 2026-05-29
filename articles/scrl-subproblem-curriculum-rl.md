@@ -3,7 +3,7 @@ title: "SCRL：サブ問題カリキュラムでRLVRを強化"
 emoji: "🎓"
 type: "tech"
 topics: ["RLVR", "LLM推論", "強化学習", "課程学習", "信用割当"]
-published: false
+published: true
 ---
 
 ## TL;DR
