@@ -3,7 +3,7 @@ title: "探索木を「見える化」する：親ポインタがLLM推論を劇
 emoji: "🌲"
 type: "tech"
 topics: ["LLM", "推論", "探索", "ChainOfThought", "強化学習"]
-published: false
+published: true
 published_at: "2026-06-02"
 ---
 
