@@ -3,7 +3,7 @@ title: "TraceLift: Executor-Grounded Rewardsで推論計画を訓練"
 emoji: "🧠"
 type: "tech"
 topics: ["AI", "NLP", "Reasoning", "LLM", "強化学習"]
-published: false
+published: true
 published_at: "2026-06-10"
 ---
 
