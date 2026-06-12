@@ -3,7 +3,7 @@ title: "LEPO: Gumbel-Softmaxで潜在推論に確率性を注入しRL最適化"
 emoji: "🎲"
 type: "tech"
 topics: ["AI", "NLP", "LLM", "推論", "強化学習"]
-published: false
+published: true
 published_at: "2026-06-12"
 ---
 
