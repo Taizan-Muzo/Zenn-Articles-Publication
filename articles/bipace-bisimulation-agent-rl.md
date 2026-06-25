@@ -8,7 +8,8 @@ topics:
   - "Agent"
   - "GRPO"
   - "信用割当"
-published: false
+published: true
+published_at: "2026-06-25"
 ---
 
 ## TL;DR
