@@ -3,7 +3,7 @@ title: "SATFormer：コンテキスト依存ゲートで初期表現への選択
 emoji: "🧠"
 type: "tech"
 topics: ["Transformer", "アーキテクチャ", "値残差", "早期表現", "言語モデル"]
-published: false
+published: true
 ---
 
 ## TL;DR
