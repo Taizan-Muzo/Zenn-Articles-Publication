@@ -3,7 +3,7 @@ title: "LCA：最弱リンク原理で結果監督PRMの信用割当問題を解
 emoji: "🔗"
 type: "tech"
 topics: ["LLM", "推論", "PRM", "強化学習", "信用割当"]
-published: false
+published: true
 ---
 
 # TL;DR
