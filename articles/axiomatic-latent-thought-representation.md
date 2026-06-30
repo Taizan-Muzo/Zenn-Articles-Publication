@@ -3,7 +3,7 @@ title: "潜在思考の公理化：全候補が全公理を満たせない構造
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "潜在推論", "表現学習", "公理化", "思考連鎖"]
-published: false
+published: true
 ---
 
 ## TL;DR
