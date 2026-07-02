@@ -9,7 +9,7 @@ topics:
   - "ACL2026"
   - "効率化"
   - "自己確信度"
-published: false
+published: true
 ---
 
 ## TL;DR
