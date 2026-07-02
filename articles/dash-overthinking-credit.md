@@ -9,7 +9,7 @@ topics:
   - "GRPO"
   - "報酬設計"
   - "数学推論"
-published: false
+published: true
 ---
 
 ## TL;DR
