@@ -3,7 +3,7 @@ title: "TRIAGE：探索≠無進歩—4役割信用割当でGRPOの2盲点を補
 emoji: "🏥"
 type: "tech"
 topics: ["reinforcement-learning", "agentic-rl", "credit-assignment", "GRPO", "LLM"]
-published: false
+published: true
 ---
 
 # TRIAGE：探索≠無進歩—4役割信用割当でGRPOの2盲点を補正
