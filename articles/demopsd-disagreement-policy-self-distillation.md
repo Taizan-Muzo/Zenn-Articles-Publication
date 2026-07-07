@@ -3,7 +3,7 @@ title: "DemoPSD: 逆KL重心でOPSDの特権情報漏洩を解消・SDPO超え"
 emoji: "🔬"
 type: "tech"
 topics: ["LLM", "強化学習", "自己蒸留", "推論", "Post-Training"]
-published: false
+published: true
 ---
 
 # DemoPSD: 教師-学生分岐に基づく選択的自己蒸留による特権情報漏洩の解消
