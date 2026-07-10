@@ -3,7 +3,7 @@ title: "TACO：GRPOの過剰強化問題を尾部認識信用校准で解決"
 emoji: "🌮"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "GRPO", "信用割当"]
-published: false
+published: true
 ---
 
 ## TL;DR
