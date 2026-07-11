@@ -3,7 +3,7 @@ title: "Hidden Decoding: 配列長スケーリングで固定Transformerをfront
 emoji: "🔄"
 type: "tech"
 topics: ["LLM", "推論最適化", "SequenceScaling", "MoE", "HiddenDecoding"]
-published: false
+published: true
 ---
 
 ## TL;DR
