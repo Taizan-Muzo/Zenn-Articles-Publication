@@ -3,7 +3,7 @@ title: "UP: 非対称最適化でRLの探索-安定性ジレンマを打破"
 emoji: "🔓"
 type: "tech"
 topics: ["LLM", "強化学習", "GRPO", "DAPO", "ポリシー最適化"]
-published: false
+published: true
 ---
 
 # UP: 非対称最適化でRLの探索-安定性ジレンマを打破
