@@ -3,7 +3,7 @@ title: "GSPO：シーケンス級重要性比でGRPOの崩壊を根本解決"
 emoji: "⚙️"
 type: "tech"
 topics: ["LLM", "強化学習", "GRPO", "Qwen3", "MoE"]
-published: false
+published: true
 ---
 
 # GSPO：シーケンス級重要性比でGRPOの崩壊を根本解決
