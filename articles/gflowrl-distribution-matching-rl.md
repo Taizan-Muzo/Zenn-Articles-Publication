@@ -3,7 +3,7 @@ title: "GFlowRL：分布マッチングRLを初めて大規模LLMで安定化"
 emoji: "🌊"
 type: "tech"
 topics: ["LLM", "強化学習", "GFlowNet", "後訓練", "推論モデル"]
-published: false
+published: true
 ---
 
 ## TL;DR
