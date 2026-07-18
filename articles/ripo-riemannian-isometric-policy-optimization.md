@@ -3,7 +3,7 @@ title: "RIPO：PPO-Clipの探索崩壊を「リーマン等長クリッピング
 emoji: "📐"
 type: "tech"
 topics: ["LLM強化学習", "PPO-Clip", "リーマン幾何", "探索崩壊", "信頼領域最適化", "推論モデル"]
-published: false
+published: true
 ---
 
 ## TL;DR
