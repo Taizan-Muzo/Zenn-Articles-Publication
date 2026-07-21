@@ -3,7 +3,7 @@ title: "Agon: 競争する二つのモデルが互いに推論を採点する新
 emoji: "⚔️"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "RLVR"]
-published: false
+published: true
 ---
 
 ## TL;DR
