@@ -3,7 +3,7 @@ title: "BPO：沙箱環境の特性を活かした分岐型ロールアウトで
 emoji: "🌳"
 type: "tech"
 topics: ["LLM", "強化学習", "Agent", "RLVR", "GRPO"]
-published: false
+published: true
 ---
 
 ## TL;DR
