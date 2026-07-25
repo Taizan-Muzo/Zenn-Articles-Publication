@@ -3,7 +3,7 @@ title: "GRPOの暗室崩壊：密予測報酬がエージェントを破壊す�
 emoji: "🌑"
 type: "tech"
 topics: ["LLM", "強化学習", "GRPO", "報酬設計", "エージェントRL"]
-published: false
+published: true
 ---
 
 ## TL;DR
