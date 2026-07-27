@@ -3,7 +3,7 @@ title: "VIGOR：報酬分散が勾配を決める——漸進的Rollout配分で
 emoji: "🎯"
 type: "tech"
 topics: ["LLM", "強化学習", "GRPO", "RLVR", "推論"]
-published: false
+published: true
 ---
 
 ## TL;DR
