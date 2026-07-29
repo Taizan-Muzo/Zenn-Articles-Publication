@@ -3,7 +3,7 @@ title: "ACRL：訓練-推論エンジン乖離の適応制御でFP8量子化下�
 emoji: "⚖️"
 type: "tech"
 topics: ["強化学習", "LLM", "量子化", "RLVR", "GRPO"]
-published: false
+published: true
 ---
 
 ## TL;DR
