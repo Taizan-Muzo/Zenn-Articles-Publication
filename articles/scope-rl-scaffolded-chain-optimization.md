@@ -3,7 +3,7 @@ title: "SCOPE-RL：成功前後でスパース報酬を密化する二段階RLVR
 emoji: "🔗"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "RewardDesign", "PostTraining"]
-published: false
+published: true
 ---
 
 ## TL;DR
