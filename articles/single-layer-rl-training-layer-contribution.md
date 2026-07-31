@@ -3,7 +3,7 @@ title: "1層だけで全パラメータRLを超える：Transformer層寄与の�
 emoji: "🎯"
 type: "tech"
 topics: ["LLM", "強化学習", "GRPO", "Transformer", "層寄与", "post-training"]
-published: false
+published: true
 ---
 
 ## TL;DR
