@@ -3,7 +3,7 @@ title: "CRPO: 対比学習が解くAgent RLにおける自蒸留の露出バイ�
 emoji: "🔀"
 type: "tech"
 topics: ["LLM", "Reinforcement Learning", "Agent", "Self-Distillation", "Contrastive Learning"]
-published: false
+published: true
 published_at: "2026-08-01 10:00"
 ---
 
