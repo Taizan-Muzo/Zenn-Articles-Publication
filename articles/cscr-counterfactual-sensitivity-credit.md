@@ -3,7 +3,7 @@ title: "CSCR：長CoT強化学習におけるトークン単位信用の再分�
 emoji: "🧮"
 type: "tech"
 topics: ["強化学習", "LLM", "推論", "GRPO", "CSCR"]
-published: false
+published: true
 ---
 
 ## TL;DR
