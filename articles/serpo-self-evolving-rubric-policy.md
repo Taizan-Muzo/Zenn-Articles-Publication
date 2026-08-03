@@ -3,7 +3,7 @@ title: "SERPO・自己進化ルーブリックでテスト時RLを開放生成�
 emoji: "🔄"
 type: "tech"
 topics: ["LLM", "強化学習", "テスト時適応", "ルーブリックベース評価"]
-published: false
+published: true
 ---
 
 # SERPO: 自己進化ルーブリックによる開放生成のテスト時強化学習
