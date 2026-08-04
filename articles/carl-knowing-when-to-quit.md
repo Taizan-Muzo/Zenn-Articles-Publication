@@ -3,7 +3,7 @@ title: "徒労推理をやめる：CaRLがLLMに諦め方を教える"
 emoji: "🛑"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "能力境界", "GRPO"]
-published: false
+published: true
 published_at: "2026-08-04T10:00:00+09:00"
 ---
 
