@@ -4,7 +4,7 @@ emoji: "🛑"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "能力境界", "GRPO"]
 published: true
-published_at: "2026-08-04T10:00:00+09:00"
+published_at: "2026-08-04 10:00"
 ---
 
 ## TL;DR
