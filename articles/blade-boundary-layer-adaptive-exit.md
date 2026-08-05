@@ -3,7 +3,7 @@ title: "BLADE：境界拡張と層適応プローブでLLM推論を動的に早�
 emoji: "🗡️"
 type: "tech"
 topics: ["推論効率化", "動的早退", "早期終了", "LLM推論", "プローブ分類器"]
-published: false
+published: true
 published_at: 2026-08-05
 ---
 
