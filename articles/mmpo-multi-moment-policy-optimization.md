@@ -3,7 +3,7 @@ title: "MMPO：失敗確率分布の複数モーメントを同時に最適化�
 emoji: "📊"
 type: "tech"
 topics: ["LLM", "強化学習", "推論", "数学的推論", "策略最適化"]
-published: false
+published: true
 published_at: "2026-08-06"
 ---
 
