@@ -3,7 +3,7 @@ title: "答えを覗き見るな: ラベルフリーRLVRの報酬ハッキング
 emoji: "🙈"
 type: "tech"
 topics: ["強化学習", "LLM", "RLVR", "GRPO", "信用配分", "ラベルフリー学習"]
-published: false
+published: true
 published_at: "2026-08-07"
 ---
 
