@@ -3,7 +3,7 @@ title: "生成型報酬モデルをRLで本気で使う：ランキングベー�
 emoji: "🏆"
 type: "tech"
 topics: ["LLM", "強化学習", "報酬モデル", "生成型報酬モデル", "RLHF"]
-published: false
+published: true
 published_at: "2026-08-08"
 ---
 
