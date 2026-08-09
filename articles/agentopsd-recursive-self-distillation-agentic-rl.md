@@ -3,7 +3,7 @@ title: "AgentOPSD：マルチターンAgent RLの信用割当てを再帰ベイ�
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "AgentRL", "CreditAssignment", "SelfDistillation", "GRPO"]
-published: false
+published: true
 published_at: "2026-08-09"
 ---
 
