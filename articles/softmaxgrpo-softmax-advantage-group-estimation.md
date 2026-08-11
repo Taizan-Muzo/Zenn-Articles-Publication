@@ -3,7 +3,7 @@ title: "SoftmaxGRPO：Softmaxアドバンテージ推定でGRPOのz-score発散�
 emoji: "🌡️"
 type: "tech"
 topics: ["RLHF", "GRPO", "SoftmaxGRPO", "強化学習", "LLM", "ポリシー最適化", "COLM2026"]
-published: false
+published: true
 ---
 
 ## TL;DR
