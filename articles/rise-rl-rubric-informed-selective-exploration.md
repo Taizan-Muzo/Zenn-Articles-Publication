@@ -3,7 +3,7 @@ title: "RISE-RL: ルーブリック informed 選択的探索で开放型RLの限
 emoji: "🧭"
 type: "tech"
 topics: ["LLM", "強化学習", "ルーブリックRL", "GRPO", "开放型生成", "ポストトレーニング"]
-published: false
+published: true
 published_at: "2026-08-12"
 ---
 
