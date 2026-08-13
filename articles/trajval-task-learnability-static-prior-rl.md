@@ -3,7 +3,7 @@ title: "TrajVal: 可解性では足りない――RL後学習のタスク価値�
 emoji: "🎯"
 type: "tech"
 topics: ["LLM", "ReinforcementLearning", "PostTraining", "DataEfficiency", "TaskSampling"]
-published: false
+published: true
 published_at: "2026-08-13"
 ---
 
