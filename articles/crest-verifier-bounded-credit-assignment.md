@@ -3,7 +3,7 @@ title: "CrEST：RLの方向性は変えず、Teacherが「大きさ」だけを�
 emoji: "🎯"
 type: "tech"
 topics: ["LLM", "ReinforcementLearning", "Agent", "CreditAssignment", "RLVR"]
-published: false
+published: true
 published_at: "2026-08-15"
 ---
 
