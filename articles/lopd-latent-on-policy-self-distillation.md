@@ -3,7 +3,8 @@ title: "LOPD：特権コンテキストをエンドツーエンド学習する�
 emoji: "🎯"
 type: "tech"
 topics: ["LLM", "強化学習", "自己蒸留", "エージェント"]
-published: false
+published: true
+published_at: "2026-08-16"
 ---
 
 ## TL;DR
