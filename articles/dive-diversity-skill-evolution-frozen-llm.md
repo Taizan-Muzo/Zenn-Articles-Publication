@@ -3,7 +3,7 @@ title: "DIVE: 凍結LLMをパラメータ更新なしで自己改善する多様
 emoji: "🧬"
 type: "tech"
 topics: ["LLM", "自己改善", "スキル進化", "強化学習", "推論"]
-published: false
+published: true
 published_at: "2026-08-17"
 ---
 
