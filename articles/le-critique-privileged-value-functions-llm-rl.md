@@ -3,7 +3,7 @@ title: "Le Critique: LLM強化学習における価値関数の復権 — PVFと
 emoji: "🎭"
 type: "tech"
 topics: ["LLM", "強化学習", "価値関数", "GRPO", "信用割当て"]
-published: false
+published: true
 ---
 
 ## TL;DR
