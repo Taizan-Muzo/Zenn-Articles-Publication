@@ -3,7 +3,7 @@ title: "Co-RL：多様なコホートが生む教師なし推論——ピア報�
 emoji: "🤝"
 type: "tech"
 topics: ["強化学習", "マルチエージェント", "教師なし学習", "推論", "LLM"]
-published: false
+published: true
 ---
 
 ## TL;DR
