@@ -3,7 +3,7 @@ title: "SAPO: 1ロールアウト自己回帰Actor-CriticでAgent RLの壁を突
 emoji: "⚡"
 type: "tech"
 topics: ["LLM", "ReinforcementLearning", "Agent", "RLHF"]
-published: false
+published: true
 published_at: "2026-08-22"
 ---
 
