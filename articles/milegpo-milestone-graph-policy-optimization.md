@@ -3,8 +3,8 @@ title: "MileGPO：グラフ＋マイルストーンでLLM Agentの長期信用�
 emoji: "🗺️"
 type: "tech"
 topics: ["LLM", "強化学習", "Agent", "GRPO", "信用割当て"]
-published: false
-published_at: 2026-08-23 00:00
+published: true
+published_at: 2026-08-23 14:30
 ---
 
 ## TL;DR
