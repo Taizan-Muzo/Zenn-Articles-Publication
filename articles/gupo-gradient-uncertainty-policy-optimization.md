@@ -3,7 +3,7 @@ title: "GUPO・勾配不確実性のベイズ推定でGRPOのグループ間衝�
 emoji: "🌀"
 type: "tech"
 topics: ["LLM", "強化学習", "GRPO", "ベイズ推定", "勾配衝突"]
-published: false
+published: true
 ---
 
 ## TL;DR
