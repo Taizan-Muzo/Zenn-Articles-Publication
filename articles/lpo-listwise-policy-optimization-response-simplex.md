@@ -3,7 +3,7 @@ title: "LPO：Response Simplex上の明示的射影でGRPOを刷新する"
 emoji: "🎯"
 type: "tech"
 topics: ["LLM", "強化学習", "RLVR", "GRPO", "応答最適化"]
-published: false
+published: true
 ---
 
 # LPO：Response Simplex上の明示的射影でGRPOを刷新する
