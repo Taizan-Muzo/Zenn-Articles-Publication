@@ -3,7 +3,7 @@ title: "ERPO: 安定性と探索のジレンマを入力側正則化で打破"
 emoji: "🔄"
 type: "tech"
 topics: ["LLM", "強化学習", "ポリシー最適化", "GRPO"]
-published: false
+published: true
 ---
 
 ## TL;DR
