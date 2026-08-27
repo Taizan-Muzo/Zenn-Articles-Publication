@@ -3,7 +3,7 @@ title: "Criticの復権: BPCOがGRPOを16分の1サンプルで凌駕する5つ�
 emoji: "🎭"
 type: "tech"
 topics: ["LLM", "強化学習", "Critic", "PPO", "GRPO"]
-published: false
+published: true
 published_at: 2026-08-27
 ---
 
