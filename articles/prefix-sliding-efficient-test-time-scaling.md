@@ -3,7 +3,7 @@ title: "長思考の壁を突破するPrefix Sliding：中間トークンを捨�
 emoji: "🪟"
 type: "tech"
 topics: ["LLM", "TestTimeScaling", "EfficientInference", "Reasoning"]
-published: false
+published: true
 ---
 
 # TL;DR
