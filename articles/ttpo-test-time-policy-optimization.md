@@ -3,8 +3,7 @@ title: "TTPO: ラベルなしテスト時学習でOPSDに匹敵する性能を�
 emoji: "⚡"
 type: "tech"
 topics: ["LLM", "強化学習", "テスト時学習", "推論", "数学"]
-published: false
-published_at: 2026-08-30
+published: true
 ---
 
 ## TL;DR
