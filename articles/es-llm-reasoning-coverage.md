@@ -3,7 +3,7 @@ title: "ESはGRPOを超えるか：推論カバレッジの理論と実験"
 emoji: "🧬"
 type: "tech"
 topics: ["LLM", "ReinforcementLearning", "EvolutionStrategies", "PostTraining"]
-published: false
+published: true
 ---
 
 # TL;DR
