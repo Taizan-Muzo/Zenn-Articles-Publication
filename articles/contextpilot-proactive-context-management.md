@@ -3,7 +3,7 @@ title: "ContextPilot：32Kコンテキストで128Kを超える能動的文脈�
 emoji: "🧭"
 type: "tech"
 topics: ["LLM", "Agent", "ReinforcementLearning", "ContextManagement"]
-published: false
+published: true
 ---
 
 # TL;DR
