@@ -3,7 +3,7 @@ title: "SFTからGRPOへ：TailSFTが示す「coverage-first」な初期化の�
 emoji: "🎯"
 type: "tech"
 topics: ["LLM", "強化学習", "GRPO", "SFT", "coverage", "post-training", "OLMo"]
-published: false
+published: true
 published_at: 2026-09-01
 ---
 
