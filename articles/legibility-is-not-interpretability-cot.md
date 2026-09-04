@@ -3,7 +3,7 @@ title: "可読性は解釈可能性にあらず──Chain-of-Thought推論に�
 emoji: "🔍"
 type: "tech"
 topics: ["Chain-of-Thought", "解釈可能性", "Process Reward Model", "LLM", "推論の忠実性"]
-published: false
+published: true
 ---
 
 ## TL;DR
