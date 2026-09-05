@@ -3,7 +3,7 @@ title: "順次実行が同時最適化に勝つ──On-Policy DistillationとRL
 emoji: "🔀"
 type: "tech"
 topics: ["強化学習", "推論モデル", "知識蒸留", "RLVR", "LLM"]
-published: false
+published: true
 ---
 
 ## TL;DR
