@@ -3,7 +3,7 @@ title: "自然言語仕様をコンパイルする──Compile by Trainingで�
 emoji: "🔧"
 type: "tech"
 topics: ["LLM", "コンパイル", "知識蒸留", "LoRA", "Program-as-Weights"]
-published: false
+published: true
 ---
 
 # 自然言語仕様をコンパイルする──Compile by Trainingで再利用可能な神経関数を生成する
