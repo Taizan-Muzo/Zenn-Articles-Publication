@@ -3,7 +3,7 @@ title: "多様な視点が暗記に勝つ──補助ビューがLLMの事前学
 emoji: "🔭"
 type: "tech"
 topics: ["LLM", "事前学習", "知識獲得", "データ多様性", "継続事前学習"]
-published: false
+published: true
 ---
 
 ## TL;DR
