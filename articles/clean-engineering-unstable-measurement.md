@@ -3,7 +3,7 @@ title: "工学が完璧でも測定は崩れる──LLMジャッジの信頼性
 emoji: "⚖️"
 type: "tech"
 topics: ["LLM評価", "信頼性", "測定論", "事前登録", "ブラックボックス観察者"]
-published: false
+published: true
 ---
 
 ## TL;DR
