@@ -3,7 +3,7 @@ title: "速さを捨てずに速くなる──Unoが離散拡散でARモデル�
 emoji: "⚡"
 type: "tech"
 topics: ["LLM", "推論高速化", "拡散モデル", "推測デコーディング", "Uno"]
-published: false
+published: true
 ---
 
 # 速さを捨てずに速くなる──Unoが離散拡散でARモデルの無損失高速化を実現する仕組み
