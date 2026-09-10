@@ -3,7 +3,7 @@ title: "教師が書く前に生徒は実行できない──PTAがツール使
 emoji: "⚓"
 type: "tech"
 topics: ["LLM", "知識蒸留", "ツール使用", "強化学習", "EMNLP2026"]
-published: false
+published: true
 ---
 
 ## TL;DR
