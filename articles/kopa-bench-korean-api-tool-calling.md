@@ -3,7 +3,7 @@ title: "実行が嘘を見抜く──EDGEが韓国公開APIの多段ツール�
 emoji: "🔗"
 type: "tech"
 topics: ["LLM Agent", "Tool Calling", "Function Calling", "Data Synthesis", "Benchmark"]
-published: false
+published: true
 ---
 
 ## TL;DR
