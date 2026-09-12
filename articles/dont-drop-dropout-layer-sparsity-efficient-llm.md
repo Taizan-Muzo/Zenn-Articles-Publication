@@ -3,7 +3,7 @@ title: "捨ててはいけない──Layer DropoutがLLMの訓練効率と推�
 emoji: "🧱"
 type: "tech"
 topics: ["LLM", "Layer Dropout", "推論高速化", "訓練効率化", "自己投機デコード"]
-published: false
+published: true
 ---
 
 ## TL;DR
