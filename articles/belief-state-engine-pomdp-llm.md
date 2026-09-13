@@ -3,7 +3,7 @@ title: "見えないものを信じる──BSEがLLMエージェントにPOMDP�
 emoji: "🔭"
 type: "tech"
 topics: ["LLM", "POMDP", "信念状態", "部分観測", "エージェント"]
-published: false
+published: true
 ---
 
 ## TL;DR
