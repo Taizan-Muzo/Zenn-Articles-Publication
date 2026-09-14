@@ -3,7 +3,7 @@ title: "角度が推論の宿命を決める──A*-Thought-V2が幾何力学�
 emoji: "📐"
 type: "tech"
 topics: ["LLM", "Chain-of-Thought", "潜在推論", "幾何力学", "推論効率化"]
-published: false
+published: true
 ---
 
 ## TL;DR
