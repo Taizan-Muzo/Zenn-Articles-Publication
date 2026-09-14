@@ -27,13 +27,21 @@
 - 2026-09-08: 工学が完璧でも測定は崩れる──LLMジャッジの信頼性が共有エンドポイントで破れる仕組み (arXiv:2609.04198)
 - 2026-09-09: 速さを捨てずに速くなる──Unoが離散拡散でARモデルの無損失高速化を実現する仕組み (arXiv:2609.04010)
 - 2026-09-10: 教師が書く前に生徒は実行できない──PTAがツール使用蒸留の分布ズレを断つ仕組み (arXiv:2609.04773, EMNLP 2026 Main)
+- 2026-09-11: 実行が嘘を見抜く──EDGEが韓国公開APIの多段ツール呼び出しで9Bを27Bに迫る仕組み (arXiv:2609.05395, EMNLP 2026 Industry)
+- 2026-09-12: 捨ててはいけない──Layer DropoutがLLMの訓練効率と推論弾性を同時に開く仕組み (arXiv:2609.05275, ICML 2026)
+- 2026-09-13: 見えないものを信じる──BSEがLLMエージェントにPOMDPの最適性保証を取り戻す仕組み (arXiv:2609.10036)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
-- Reasoning / Planning 系最新研究
-- LLM Agent / Tool-use 相关（KOPA-Bench: arXiv:2609.05395 EMNLP 2026 Industry）
+- Reasoning / Planning 系最新研究（BSE/POMDP已发）
+  - A*-Thought-V2: 幾何力学による効率的潜熱推論 (arXiv:2609.07821) 同系候補
+  - Procedural Graphs: 自己進化する実行構造 (arXiv:2609.09153) 同系候補
+  - Aha-Flow Distillation: Flow Markerが推論に効く (arXiv:2609.07036) 同系候補
+- LLM Agent / Tool-use 相关
 - RAG / Retrieval 增强
 - Multilingual / Cross-lingual NLP
-- Efficient Inference / 推论高速化（Don't Drop Dropout: arXiv:2609.05275 同系）
+- Efficient Inference / 推论高速化（Don't Drop Dropout已发）
+  - LILA: 校准フリー構造化プルーニング (arXiv:2609.11163) 同系候補
+  - Osprey: 投機デコードの汎用ドレフター (EMNLP 2026)
 - Instruction Tuning / Alignment
 - Long Context / Context Window 拡張
