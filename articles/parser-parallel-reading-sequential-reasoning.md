@@ -3,7 +3,7 @@ title: "読むことと推論を分ける──PARSERが長文脈Agentの並列�
 emoji: "🔀"
 type: "tech"
 topics: ["LLM", "長文脈", "エージェント", "推論", "並列処理"]
-published: false
+published: true
 ---
 
 # 読むことと推論を分ける──PARSERが長文脈Agentの並列読みと深い推論を両立する仕組み
