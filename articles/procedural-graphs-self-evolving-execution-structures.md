@@ -3,7 +3,7 @@ title: "暗黙の知識を明示する──Procedural GraphがLLMエージェ�
 emoji: "🧭"
 type: "tech"
 topics: ["LLMエージェント", "ProceduralGraph", "自己進化", "プログラム知識", "推論構造"]
-published: false
+published: true
 ---
 
 ## TL;DR
