@@ -3,7 +3,7 @@ title: "環境を隠すな──ActObsが観測監督でエージェントの探
 emoji: "👁️"
 type: "tech"
 topics: ["LLMエージェント", "強化学習", "SFT", "観測監督", "GRPO", "探索"]
-published: false
+published: true
 ---
 
 ## TL;DR
