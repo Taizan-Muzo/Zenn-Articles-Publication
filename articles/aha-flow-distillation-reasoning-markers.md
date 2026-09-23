@@ -3,7 +3,7 @@ title: "「待って」より「やってる」が推論に効く──Aha-Flow 
 emoji: "🌊"
 type: "tech"
 topics: ["LLM", "推論", "自己蒸留", "Chain-of-Thought", "FlowMarker"]
-published: false
+published: true
 ---
 
 ## TL;DR
