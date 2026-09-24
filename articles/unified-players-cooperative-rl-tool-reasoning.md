@@ -3,7 +3,7 @@ title: "三つの役が互いに磨き合う──UnifiedPlayersが計画・実�
 emoji: "🎭"
 type: "tech"
 topics: ["LLM", "強化学習", "エージェント", "ツール使用", "自己進化"]
-published: false
+published: true
 ---
 
 # 三つの役が互いに磨き合う──UnifiedPlayersが計画・実行・評価の協調でツール推論を自己増強する仕組み
