@@ -3,7 +3,7 @@ title: "成功と有用は別物──AMPLE-MathがOPSDの蒸留改善と特権�
 emoji: "🔓"
 type: "tech"
 topics: ["LLM", "On-Policy Distillation", "RLVR", "推論", "数学推論", "自己蒸留"]
-published: false
+published: true
 ---
 
 ## TL;DR
