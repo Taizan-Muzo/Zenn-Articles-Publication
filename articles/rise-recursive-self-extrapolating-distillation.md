@@ -3,7 +3,7 @@ title: "外挿が教師を作る──RISEがRLVRの訓練軌跡から逐次改�
 emoji: "🚀"
 type: "tech"
 topics: ["LLM", "強化学習", "蒸留", "RLVR", "推論"]
-published: false
+published: true
 ---
 
 ## TL;DR
