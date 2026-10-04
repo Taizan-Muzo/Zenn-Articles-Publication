@@ -3,7 +3,7 @@ title: "校準データなしで切る──LILAが特異値分布のKS距離だ
 emoji: "✂️"
 type: "tech"
 topics: ["LLM", "モデル圧縮", "構造化プルーニング", "線形代数", "機械学習"]
-published: false
+published: true
 ---
 
 # はじめに
