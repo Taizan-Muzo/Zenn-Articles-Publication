@@ -3,7 +3,7 @@ title: "少数の決定が全体を決める──Pivot-SDがDiffusion LMの高�
 emoji: "🎯"
 type: "tech"
 topics: ["機械学習", "NLP", "拡散モデル", "LLM", "自己蒸留", "EMNLP2026"]
-published: false
+published: true
 ---
 
 ## TL;DR
