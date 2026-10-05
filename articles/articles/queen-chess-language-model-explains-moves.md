@@ -3,7 +3,7 @@ title: "沈黙の名人に言葉を与える──Queenが4Bでグランドマ�
 emoji: "♛"
 type: "tech"
 topics: ["機械学習", "LLM", "自然言語処理", "知識蒸留", "強化学習"]
-published: false
+published: true
 ---
 
 ## TL;DR
