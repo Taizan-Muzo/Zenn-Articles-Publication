@@ -30,18 +30,38 @@
 - 2026-09-11: 実行が嘘を見抜く──EDGEが韓国公開APIの多段ツール呼び出しで9Bを27Bに迫る仕組み (arXiv:2609.05395, EMNLP 2026 Industry)
 - 2026-09-12: 捨ててはいけない──Layer DropoutがLLMの訓練効率と推論弾性を同時に開く仕組み (arXiv:2609.05275, ICML 2026)
 - 2026-09-13: 見えないものを信じる──BSEがLLMエージェントにPOMDPの最適性保証を取り戻す仕組み (arXiv:2609.10036)
+- 2026-09-14: 角度が推論の宿命を決める──A*-Thought-V2が幾何力学でCoTの明示と潜在を自動で切り分ける仕組み (arXiv:2609.07821)
+- 2026-09-17: 読むことと推論を分ける──PARSERが長文脈Agentの並列読みと深い推論を両立する仕組み (arXiv:2609.06702)
+- 2026-09-18: 知識は使い方で決まる──サブエージェントとスキルの実行方式が長期タスクの性能を分ける仕組み (arXiv:2609.09233)
+- 2026-09-19: 暗黙の知識を明示する──Procedural GraphがLLMエージェントの手続きを自己進化させる仕組み (arXiv:2609.09153)
+- 2026-09-20: 環境を隠すな──ActObsが観測監督でエージェントの探索を変える仕組み (arXiv:2609.20715)
+- 2026-09-23: 「待って」より「やってる」が推論に効く──Aha-Flow DistillationがFlow Markerの見落しを正す仕組み (arXiv:2609.07036)
+- 2026-09-24: 三つの役が互いに磨き合う──UnifiedPlayersが計画・実行・評価の協調でツール推論を自己増強する仕組み (arXiv:2609.20089)
+- 2026-09-25: 成功と有用は別物──AMPLE-MathがOPSDの蒸留改善と特権情報の寄与を切り分ける仕組み (arXiv:2609.20612)
+- 2026-09-27: 外挿が教師を作る──RISEがRLVRの訓練軌跡から逐次改善の教師を自前で構築する仕組み (arXiv:2609.05295)
+- 2026-10-04: 校準データなしで切る──LILAが特異値分布のKS距離だけでLLMを構造化プルーニングする仕組み (arXiv:2609.11163)
+- 2026-10-05: 10個のPivotが256個のtokenを動かす──Pivot-SDがMasked Diffusion LMの自己蒸留を10倍効率化する仕組み (arXiv:2610.03665, EMNLP 2026 Main Oral)
+- 2026-10-05: 沈黙の名人に言葉を与える──Queenが4Bでグランドマスター級の棋力と説明を両立する仕組み (arXiv:2610.03695, Princeton)
+- 2026-10-06: 50ドルの発見を1ドル未満で──FrugalEvoが強弱2モデルの分担でLLM進化探索のコストを1/30にする仕組み (arXiv:2610.03675, NUS/UW/Stanford)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
-- Reasoning / Planning 系最新研究（BSE/POMDP已发）
-  - A*-Thought-V2: 幾何力学による効率的潜熱推論 (arXiv:2609.07821) 同系候補
-  - Procedural Graphs: 自己進化する実行構造 (arXiv:2609.09153) 同系候補
-  - Aha-Flow Distillation: Flow Markerが推論に効く (arXiv:2609.07036) 同系候補
-- LLM Agent / Tool-use 相关
+- Reasoning / Planning 系最新研究（BSE/POMDP已発, A*-Thought-V2已発, Procedural Graphs已発）
+  - Aha-Flow Distillation: Flow Markerが推論に効く (arXiv:2609.07036) 既発
+- LLM Agent / Tool-use / SFT初始化 相关
+  - PARSER: 既発
+  - Subagents vs Agent Skills: 既発
+  - ActObs: 観測監督で探索を変える (arXiv:2609.20715) 既発
+  - UnifiedPlayers: 三プレイヤー協調RL (arXiv:2609.20089) 既発
+  - AMPLE-Math / OPSD分析: 特権情報の追加効果 (arXiv:2609.20612) 既発
+  - RISE: 再帰改善の自己外挿蒸留 (arXiv:2609.05295) 既発
+  - UECR-GRPO: 蒸留とGRPOの統一 (arXiv:2609.28385) 同系候補
 - RAG / Retrieval 增强
 - Multilingual / Cross-lingual NLP
-- Efficient Inference / 推论高速化（Don't Drop Dropout已发）
-  - LILA: 校准フリー構造化プルーニング (arXiv:2609.11163) 同系候補
-  - Osprey: 投機デコードの汎用ドレフター (EMNLP 2026)
+- Efficient Inference / 推论高速化（Don't Drop Dropout已発, LILA已発）
+  - Osprey: 投機デコードの汎用ドレフター (EMNLP 2026) 候補
 - Instruction Tuning / Alignment
 - Long Context / Context Window 拡張
+- Domain expert encoder + LM 系
+  - FrugalEvo: コスト意識LLM進化 (arXiv:2610.03675) 既発
+  - World Embedding Benchmark: 物理埋め込み評価 (arXiv:2610.03632) 候補
