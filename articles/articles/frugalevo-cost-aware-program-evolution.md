@@ -3,7 +3,7 @@ title: "50ドルの発見を1ドル未満で──FrugalEvoが強弱2モデル�
 emoji: "💸"
 type: "tech"
 topics: ["機械学習", "LLM", "進化的計算", "最適化", "コスト効率"]
-published: false
+published: true
 ---
 
 ## TL;DR
