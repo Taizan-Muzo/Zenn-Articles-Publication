@@ -3,7 +3,7 @@ title: "記憶の先に信念を置く──PoSが明示的信念状態で長期
 emoji: "🧭"
 type: "tech"
 topics: ["LLM", "Agent", "POMDP", "BeliefState", "LongHorizon"]
-published: false
+published: true
 ---
 
 ## TL;DR
