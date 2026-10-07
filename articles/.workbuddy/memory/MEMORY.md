@@ -43,6 +43,8 @@
 - 2026-10-05: 10個のPivotが256個のtokenを動かす──Pivot-SDがMasked Diffusion LMの自己蒸留を10倍効率化する仕組み (arXiv:2610.03665, EMNLP 2026 Main Oral)
 - 2026-10-05: 沈黙の名人に言葉を与える──Queenが4Bでグランドマスター級の棋力と説明を両立する仕組み (arXiv:2610.03695, Princeton)
 - 2026-10-06: 50ドルの発見を1ドル未満で──FrugalEvoが強弱2モデルの分担でLLM進化探索のコストを1/30にする仕組み (arXiv:2610.03675, NUS/UW/Stanford)
+- 2026-10-07: 記憶の先に信念を置く──PoSが明示的信念状態で長期エージェントの文脈管理を変える仕組み (arXiv:2610.01415)
+- 2026-10-07: 映像の中の物理は取り出せるか──World Embedding Benchmarkがマルチモーダル埋め込みの物理忠実性を測り直す (arXiv:2610.03632)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
@@ -56,6 +58,7 @@
   - AMPLE-Math / OPSD分析: 特権情報の追加効果 (arXiv:2609.20612) 既発
   - RISE: 再帰改善の自己外挿蒸留 (arXiv:2609.05295) 既発
   - UECR-GRPO: 蒸留とGRPOの統一 (arXiv:2609.28385) 同系候補
+  - PoS: 明示的信念状態で長期エージェント (arXiv:2610.01415) 既発
 - RAG / Retrieval 增强
 - Multilingual / Cross-lingual NLP
 - Efficient Inference / 推论高速化（Don't Drop Dropout已発, LILA已発）
@@ -64,4 +67,4 @@
 - Long Context / Context Window 拡張
 - Domain expert encoder + LM 系
   - FrugalEvo: コスト意識LLM進化 (arXiv:2610.03675) 既発
-  - World Embedding Benchmark: 物理埋め込み評価 (arXiv:2610.03632) 候補
+  - World Embedding Benchmark: 物理埋め込み評価 (arXiv:2610.03632) 既発
