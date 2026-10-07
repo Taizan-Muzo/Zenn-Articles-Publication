@@ -3,7 +3,7 @@ title: "映像の中の物理は取り出せるか──World Embedding Benchmar
 emoji: "🌊"
 type: "tech"
 topics: ["機械学習", "マルチモーダル", "世界モデル", "動画生成", "ベンチマーク"]
-published: false
+published: true
 ---
 
 ## TL;DR
