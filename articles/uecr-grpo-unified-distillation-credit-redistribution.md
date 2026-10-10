@@ -3,7 +3,7 @@ title: "教師を信じる場所と信じない場所──UECR-GRPOがオンポ
 emoji: "⚖️"
 type: "tech"
 topics: ["RLVR", "On-Policy Distillation", "GRPO", "信用再分配", "数学推論"]
-published: false
+published: true
 ---
 
 ## TL;DR
