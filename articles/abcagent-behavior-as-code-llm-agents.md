@@ -3,7 +3,7 @@ title: "振る舞いを書いて実行する──ABCAgentがプログラムで�
 emoji: "💻"
 type: "tech"
 topics: ["LLMエージェント", "神経記号AI", "行動即コード", "プログラム合成", "効率化"]
-published: false
+published: true
 ---
 
 ## TL;DR
