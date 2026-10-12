@@ -48,7 +48,7 @@
 - 2026-10-08: 信じる前に分解する──CRGがLLMエージェントの信頼性を主張の木に分解して推論時校準を実現する仕組み (arXiv:2610.07948)
 - 2026-10-09: 失敗を診て次を指す──Agentic AutoRAGが検索と生成の失敗帰属でRAGパイプラインを自動最適化する仕組み (arXiv:2610.08452, EMNLP 2026 REALM + NeurIPS 2026 ML4Sys)
 - 2026-10-10: 教師を信じる場所と信じない場所──UECR-GRPOがオンポリシー蒸留とGRPOをエントロピー校準信用再分配で統一する仕組み (arXiv:2609.28385)
-- 2026-10-11: 振る舞いを書いて実行する──ABCAgentがプログラムでエージェントの確定性と効率を同時に開く仕組み (arXiv:2610.04824)
+- 2026-10-12: どこに蒸留するかは学んで決める──BiToK-SDがTop-Kトークン選択を双レベル最適化で解く仕組み (arXiv:2610.07247)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
@@ -56,12 +56,12 @@
 - Reasoning / Planning 系最新研究
 - LLM Agent / Tool-use / SFT初始化 相关
   - UECR-GRPO: 蒸留とGRPOの統一 (arXiv:2609.28385) 既発
-- RAG / Retrieval 增强
+- RAG / Retrieval 増強
   - Agentic AutoRAG: 推論駆動エージェントでRAG最適化 (arXiv:2610.08452, EMNLP 2026 REALM + NeurIPS 2026 ML4Sys) 既発
 - Multilingual / Cross-lingual NLP
-- Efficient Inference / 推论高速化
+- Efficient Inference / 推論高速化
   - Osprey: 投機デコードの汎用ドレフター (EMNLP 2026) 候補
-  - BiToK-SD: 二段階Top-Kトークン選択自己蒸留 (arXiv:2610.07247) 候補
+  - BiToK-SD: 二段階Top-Kトークン選択自己蒸留 (arXiv:2610.07247) 既発
 - Instruction Tuning / Alignment
 - Long Context / Context Window 拡張
 - Agent Behavior / Programmatic Specification
