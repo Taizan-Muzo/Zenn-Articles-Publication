@@ -45,26 +45,26 @@
 - 2026-10-06: 50ドルの発見を1ドル未満で──FrugalEvoが強弱2モデルの分担でLLM進化探索のコストを1/30にする仕組み (arXiv:2610.03675, NUS/UW/Stanford)
 - 2026-10-07: 記憶の先に信念を置く──PoSが明示的信念状態で長期エージェントの文脈管理を変える仕組み (arXiv:2610.01415)
 - 2026-10-07: 映像の中の物理は取り出せるか──World Embedding Benchmarkがマルチモーダル埋め込みの物理忠実性を測り直す (arXiv:2610.03632)
+- 2026-10-08: 信じる前に分解する──CRGがLLMエージェントの信頼性を主張の木に分解して推論時校準を実現する仕組み (arXiv:2610.07948)
+- 2026-10-09: 失敗を診て次を指す──Agentic AutoRAGが検索と生成の失敗帰属でRAGパイプラインを自動最適化する仕組み (arXiv:2610.08452, EMNLP 2026 REALM + NeurIPS 2026 ML4Sys)
+- 2026-10-10: 教師を信じる場所と信じない場所──UECR-GRPOがオンポリシー蒸留とGRPOをエントロピー校準信用再分配で統一する仕組み (arXiv:2609.28385)
+- 2026-10-11: 振る舞いを書いて実行する──ABCAgentがプログラムでエージェントの確定性と効率を同時に開く仕組み (arXiv:2610.04824)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
-- Reasoning / Planning 系最新研究（BSE/POMDP已発, A*-Thought-V2已発, Procedural Graphs已発）
-  - Aha-Flow Distillation: Flow Markerが推論に効く (arXiv:2609.07036) 既発
+  - CRG: エージェント信頼度の主張分解 (arXiv:2610.07948) 既発
+- Reasoning / Planning 系最新研究
 - LLM Agent / Tool-use / SFT初始化 相关
-  - PARSER: 既発
-  - Subagents vs Agent Skills: 既発
-  - ActObs: 観測監督で探索を変える (arXiv:2609.20715) 既発
-  - UnifiedPlayers: 三プレイヤー協調RL (arXiv:2609.20089) 既発
-  - AMPLE-Math / OPSD分析: 特権情報の追加効果 (arXiv:2609.20612) 既発
-  - RISE: 再帰改善の自己外挿蒸留 (arXiv:2609.05295) 既発
-  - UECR-GRPO: 蒸留とGRPOの統一 (arXiv:2609.28385) 同系候補
-  - PoS: 明示的信念状態で長期エージェント (arXiv:2610.01415) 既発
+  - UECR-GRPO: 蒸留とGRPOの統一 (arXiv:2609.28385) 既発
 - RAG / Retrieval 增强
+  - Agentic AutoRAG: 推論駆動エージェントでRAG最適化 (arXiv:2610.08452, EMNLP 2026 REALM + NeurIPS 2026 ML4Sys) 既発
 - Multilingual / Cross-lingual NLP
-- Efficient Inference / 推论高速化（Don't Drop Dropout已発, LILA已発）
+- Efficient Inference / 推论高速化
   - Osprey: 投機デコードの汎用ドレフター (EMNLP 2026) 候補
+  - BiToK-SD: 二段階Top-Kトークン選択自己蒸留 (arXiv:2610.07247) 候補
 - Instruction Tuning / Alignment
 - Long Context / Context Window 拡張
-- Domain expert encoder + LM 系
-  - FrugalEvo: コスト意識LLM進化 (arXiv:2610.03675) 既発
-  - World Embedding Benchmark: 物理埋め込み評価 (arXiv:2610.03632) 既発
+- Agent Behavior / Programmatic Specification
+  - ABCAgent: Agent Behavior as Code (arXiv:2610.04824) 既発
+- Multi-Agent Reasoning
+  - DHCG: 動的階層協調グラフ (arXiv:2610.07835) 候補
