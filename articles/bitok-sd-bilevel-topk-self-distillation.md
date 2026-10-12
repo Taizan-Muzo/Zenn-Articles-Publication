@@ -3,7 +3,7 @@ title: "どこに蒸留するかは学んで決める──BiToK-SDがTop-Kト�
 emoji: "🎯"
 type: "tech"
 topics: ["機械学習", "知識蒸留", "LLM", "推論", "最適化"]
-published: false
+published: true
 ---
 
 ## TL;DR
