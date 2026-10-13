@@ -3,7 +3,7 @@ title: "加速する側だけが世間知らず──Ospreyが投機デコード
 emoji: "🦅"
 type: "tech"
 topics: ["LLM", "推論高速化", "Speculative Decoding", "事前学習", "EMNLP"]
-published: false
+published: true
 ---
 
 ## TL;DR
