@@ -3,7 +3,7 @@ title: "黙って考え、言葉で動く──HybridAgentが潜在推論とテ�
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "潜在推論", "エージェント", "推論", "効率化"]
-published: false
+published: true
 ---
 
 ## TL;DR
