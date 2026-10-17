@@ -49,6 +49,8 @@
 - 2026-10-09: 失敗を診て次を指す──Agentic AutoRAGが検索と生成の失敗帰属でRAGパイプラインを自動最適化する仕組み (arXiv:2610.08452, EMNLP 2026 REALM + NeurIPS 2026 ML4Sys)
 - 2026-10-10: 教師を信じる場所と信じない場所──UECR-GRPOがオンポリシー蒸留とGRPOをエントロピー校準信用再分配で統一する仕組み (arXiv:2609.28385)
 - 2026-10-12: どこに蒸留するかは学んで決める──BiToK-SDがTop-Kトークン選択を双レベル最適化で解く仕組み (arXiv:2610.07247)
+- 2026-10-14: チームは必要になってから増やす──DHCGが実行フィードバックで協調グラフを動的に育てる仕組み (arXiv:2610.07835)
+- 2026-10-17: 黙って考え、言葉で動く──HybridAgentが潜在推論とテキスト行動を単一の生成過程で切り替える仕組み (arXiv:2610.18861, Stanford/UIUC/Together AI)
 - 2026-10-13: 加速する側だけが世間知らず──Ospreyが投機デコードのドラフター事前学習を再利用可能にする仕組み (arXiv:2609.09338, EMNLP 2026)
 
 ## 候选论文池
@@ -57,6 +59,7 @@
 - Reasoning / Planning 系最新研究
 - LLM Agent / Tool-use / SFT初始化 相关
   - UECR-GRPO: 蒸留とGRPOの統一 (arXiv:2609.28385) 既発
+  - HybridAgent: 潜在推論とテキスト行動の統合 (arXiv:2610.18861, Stanford/UIUC/Together AI) 既発
 - RAG / Retrieval 増強
   - Agentic AutoRAG: 推論駆動エージェントでRAG最適化 (arXiv:2610.08452, EMNLP 2026 REALM + NeurIPS 2026 ML4Sys) 既発
 - Multilingual / Cross-lingual NLP
@@ -68,4 +71,4 @@
 - Agent Behavior / Programmatic Specification
   - ABCAgent: Agent Behavior as Code (arXiv:2610.04824) 既発
 - Multi-Agent Reasoning
-  - DHCG: 動的階層協調グラフ (arXiv:2610.07835) 候補
+  - DHCG: 動的階層協調グラフ (arXiv:2610.07835) 既発
