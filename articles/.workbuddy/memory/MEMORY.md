@@ -53,22 +53,23 @@
 - 2026-10-17: 黙って考え、言葉で動く──HybridAgentが潜在推論とテキスト行動を単一の生成過程で切り替える仕組み (arXiv:2610.18861, Stanford/UIUC/Together AI)
 - 2026-10-13: 加速する側だけが世間知らず──Ospreyが投機デコードのドラフター事前学習を再利用可能にする仕組み (arXiv:2609.09338, EMNLP 2026)
 
+- 2026-10-18: 強いモデルは査読に回る──SpecAgentが軌跡単位の投機実行でエージェントの帯域と時間を半減する仕組み (arXiv:2610.21463, LARK/HKUST-GZ/Yinwang/Cambridge)
+
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
-  - CRG: エージェント信頼度の主張分解 (arXiv:2610.07948) 既発
 - Reasoning / Planning 系最新研究
+  - EMO: 文脈最適化とロジット操作を交互に行う閉ループTest-Time Computation (arXiv:2610.22160)
 - LLM Agent / Tool-use / SFT初始化 相关
-  - UECR-GRPO: 蒸留とGRPOの統一 (arXiv:2609.28385) 既発
-  - HybridAgent: 潜在推論とテキスト行動の統合 (arXiv:2610.18861, Stanford/UIUC/Together AI) 既発
+  - Priming Base Models: エージェンティックポストトレーニング向けオープン・ミッドトレーニングレシピ (arXiv:2610.22019, NVIDIA)
+  - OPRD: 長期コーディングエージェント向けオンポリシー・リマインダー蒸留 (arXiv:2610.21496)
 - RAG / Retrieval 増強
-  - Agentic AutoRAG: 推論駆動エージェントでRAG最適化 (arXiv:2610.08452, EMNLP 2026 REALM + NeurIPS 2026 ML4Sys) 既発
+  - Retrieved but Not Read: 検索拡張LLMが証拠を使わずに失敗する理由 (arXiv:2610.21731)
 - Multilingual / Cross-lingual NLP
 - Efficient Inference / 推論高速化
-  - Osprey: 投機デコードの汎用ドレフター (arXiv:2609.09338, EMNLP 2026) 既発
-  - BiToK-SD: 二段階Top-Kトークン選択自己蒸留 (arXiv:2610.07247) 既発
+  - HyCo: モバイル・クラウド投機デコーディングのためのハイブリッドドラフティング (arXiv:2610.21436)
 - Instruction Tuning / Alignment
 - Long Context / Context Window 拡張
+  - Beyond Context Length: 長文脈推論の困難さの特徴付け (arXiv:2610.22067)
 - Agent Behavior / Programmatic Specification
-  - ABCAgent: Agent Behavior as Code (arXiv:2610.04824) 既発
 - Multi-Agent Reasoning
-  - DHCG: 動的階層協調グラフ (arXiv:2610.07835) 既発
+  - Mosaic: マルチセッション・エージェンティック強化学習 (arXiv:2610.22174, Zhijiang Guo)
