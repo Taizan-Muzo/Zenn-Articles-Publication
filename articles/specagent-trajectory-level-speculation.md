@@ -3,7 +3,7 @@ title: "強いモデルは査読に回る──SpecAgentが軌跡単位の投機
 emoji: "🔍"
 type: "tech"
 topics: ["LLM", "エージェント", "推論高速化", "効率化", "ツール利用"]
-published: false
+published: true
 ---
 
 ## TL;DR
