@@ -3,7 +3,7 @@ title: "取り出したのに読まない──検索拡張LLMが証拠を眼前
 emoji: "🔍"
 type: "tech"
 topics: ["LLM", "RAG", "Web検索", "知識更新", "引用信頼性", "機械的可解釈性"]
-published: false
+published: true
 ---
 
 ## TL;DR
