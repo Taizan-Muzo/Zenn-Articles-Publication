@@ -54,6 +54,7 @@
 - 2026-10-13: 加速する側だけが世間知らず──Ospreyが投機デコードのドラフター事前学習を再利用可能にする仕組み (arXiv:2609.09338, EMNLP 2026)
 
 - 2026-10-18: 強いモデルは査読に回る──SpecAgentが軌跡単位の投機実行でエージェントの帯域と時間を半減する仕組み (arXiv:2610.21463, LARK/HKUST-GZ/Yinwang/Cambridge)
+- 2026-10-19: 取り出したのに読まない──検索拡張LLMが証拠を眼前にして古い答えを返す仕組み (arXiv:2610.21731, Imperial College London)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
@@ -62,8 +63,6 @@
 - LLM Agent / Tool-use / SFT初始化 相关
   - Priming Base Models: エージェンティックポストトレーニング向けオープン・ミッドトレーニングレシピ (arXiv:2610.22019, NVIDIA)
   - OPRD: 長期コーディングエージェント向けオンポリシー・リマインダー蒸留 (arXiv:2610.21496)
-- RAG / Retrieval 増強
-  - Retrieved but Not Read: 検索拡張LLMが証拠を使わずに失敗する理由 (arXiv:2610.21731)
 - Multilingual / Cross-lingual NLP
 - Efficient Inference / 推論高速化
   - HyCo: モバイル・クラウド投機デコーディングのためのハイブリッドドラフティング (arXiv:2610.21436)
