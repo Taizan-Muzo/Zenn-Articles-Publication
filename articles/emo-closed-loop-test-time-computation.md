@@ -3,7 +3,7 @@ title: "文脈を直し、logitを曲げる──EMOが閉ループtest-time計�
 emoji: "🔄"
 type: "tech"
 topics: ["LLM", "推論", "TestTimeCompute", "プロンプトエンジニアリング", "デコーディング", "機械学習"]
-published: false
+published: true
 ---
 
 ## TL;DR
