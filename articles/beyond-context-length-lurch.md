@@ -3,7 +3,7 @@ title: "読める長さが解ける長さとは限らない──LURCHが長文�
 emoji: "📏"
 type: "tech"
 topics: ["LLM", "長文脈処理", "自然言語処理", "論文読解", "ベンチマーク"]
-published: false
+published: true
 ---
 
 ## TL;DR
