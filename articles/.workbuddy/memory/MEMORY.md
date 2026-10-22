@@ -57,12 +57,12 @@
 - 2026-10-19: 取り出したのに読まない──検索拡張LLMが証拠を眼前にして古い答えを返す仕組み (arXiv:2610.21731, Imperial College London)
 - 2026-10-20: 文脈を直し、logitを曲げる──EMOが閉ループtest-time計算で凍結LLMを伸ばす仕組み (arXiv:2610.22160, Peking University & Samsung Research Beijing)
 - 2026-10-21: 読める長さが解ける長さとは限らない──LURCHが長文脈推論の難しさをスコープ・分散・深さで切り分ける仕組み (arXiv:2610.22067, University of Edinburgh)
+- 2026-10-22: 型を教える前に現場を読ませる──オープン・ミッドトレーニングがSWEエージェントの下地を500Bトークンで作る仕組み (arXiv:2610.22019, NVIDIA)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
 - Reasoning / Planning 系最新研究
 - LLM Agent / Tool-use / SFT初始化 相关
-  - Priming Base Models: エージェンティックポストトレーニング向けオープン・ミッドトレーニングレシピ (arXiv:2610.22019, NVIDIA)
   - OPRD: 長期コーディングエージェント向けオンポリシー・リマインダー蒸留 (arXiv:2610.21496)
 - Multilingual / Cross-lingual NLP
 - Efficient Inference / 推論高速化
