@@ -3,7 +3,7 @@ title: "型を教える前に現場を読ませる──オープン・ミッド
 emoji: "🧱"
 type: "tech"
 topics: ["LLM", "自然言語処理", "機械学習", "論文読解", "AIエージェント"]
-published: false
+published: true
 ---
 
 ## TL;DR
