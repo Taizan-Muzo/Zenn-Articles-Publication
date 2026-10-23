@@ -58,6 +58,7 @@
 - 2026-10-20: 文脈を直し、logitを曲げる──EMOが閉ループtest-time計算で凍結LLMを伸ばす仕組み (arXiv:2610.22160, Peking University & Samsung Research Beijing)
 - 2026-10-21: 読める長さが解ける長さとは限らない──LURCHが長文脈推論の難しさをスコープ・分散・深さで切り分ける仕組み (arXiv:2610.22067, University of Edinburgh)
 - 2026-10-22: 型を教える前に現場を読ませる──オープン・ミッドトレーニングがSWEエージェントの下地を500Bトークンで作る仕組み (arXiv:2610.22019, NVIDIA)
+- 2026-10-23: 切れても一つの軌跡──Mosaicがマルチセッション・エージェンティックRLの信用割当てを階層化する仕組み (arXiv:2610.22174, LARK/HKUST-GZ + Huawei)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
@@ -71,4 +72,7 @@
 - Long Context / Context Window 拡張
 - Agent Behavior / Programmatic Specification
 - Multi-Agent Reasoning
-  - Mosaic: マルチセッション・エージェンティック強化学習 (arXiv:2610.22174, Zhijiang Guo)
+
+## 次回の候補補充メモ
+- 残候補：OPRD (arXiv:2610.21496)、HyCo (arXiv:2610.21436)
+- 次回実行時に最新arXivでLLM-as-a-Judge / Reasoning / Long Context系を1-2本補充すること
