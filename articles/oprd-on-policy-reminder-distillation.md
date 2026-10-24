@@ -3,7 +3,7 @@ title: "「言われれば直る」を重みへ移す──OPRDがスコープ�
 emoji: "🔔"
 type: "tech"
 topics: ["LLM", "エージェント", "蒸留", "ソフトウェアエンジニアリング", "論文読解"]
-published: false
+published: true
 ---
 
 ## TL;DR
