@@ -3,7 +3,7 @@ title: "覚えているのに守らない──StateTrack-Benchが長期対話�
 emoji: "🧠"
 type: "tech"
 topics: ["LLM", "対話システム", "指示追従", "評価", "論文読解"]
-published: false
+published: true
 ---
 
 ## TL;DR
