@@ -61,6 +61,7 @@
 - 2026-10-23: 切れても一つの軌跡──Mosaicがマルチセッション・エージェンティックRLの信用割当てを階層化する仕組み (arXiv:2610.22174, LARK/HKUST-GZ + Huawei)
 - 2026-10-24: 「言われれば直る」を重みへ移す──OPRDがスコープ付きリマインダー蒸留で長期コーディングエージェントを鍛える仕組み (arXiv:2610.21496, Tsinghua/Shanghai AI Lab/NUS)
 - 2026-10-25: 覚えているのに守らない──StateTrack-Benchが長期対話の状態整合性崩壊を切り分ける仕組み (arXiv:2610.31314, EMNLP 2026 Main, Shenzhen University)
+- 2026-10-26: 言葉にせずに考えを渡す──J-Commが幾何合意とJacobian座標で凍結LLM間の潜在通信を実現する仕組み (arXiv:2610.32871, University of Melbourne / Shanghai Jiao Tong University)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
@@ -79,4 +80,5 @@
 
 ## 次回の候補補充メモ
 - 残候補：HyCo (arXiv:2610.21436)、Reality Check of Inference-Time Context Augmentation (2610.30983)、ReflectPO (2610.30933)、Judge Robustness (2610.31172)
-- 2026-10-23付けarXivから補充済み。次回はReasoning / Multi-Agent系を中心に1-2本補充すること
+- 2026-10-26付けarXivからJ-Comm (2610.32871) を選定・発行済み。次回はEfficient Inference / Reasoning系を中心に1-2本補充すること
+- 10-26付けの未採用注目論文: How Much Do You Trust A Dog? (2610.32055, hint-followingの指数ティルト分析)、Beyond Final Outcomes (2610.32333, マルチエージェントの主張レベル情報動態)
