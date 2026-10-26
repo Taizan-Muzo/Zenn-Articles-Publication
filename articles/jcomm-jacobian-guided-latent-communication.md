@@ -3,7 +3,7 @@ title: "言葉にせずに考えを渡す──J-Commが幾何合意とJacobian�
 emoji: "📡"
 type: "tech"
 topics: ["LLM", "マルチエージェント", "潜在推論", "推論効率化", "機械学習"]
-published: false
+published: true
 ---
 
 ## TL;DR
