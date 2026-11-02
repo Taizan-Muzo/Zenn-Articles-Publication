@@ -62,16 +62,19 @@
 - 2026-10-24: 「言われれば直る」を重みへ移す──OPRDがスコープ付きリマインダー蒸留で長期コーディングエージェントを鍛える仕組み (arXiv:2610.21496, Tsinghua/Shanghai AI Lab/NUS)
 - 2026-10-25: 覚えているのに守らない──StateTrack-Benchが長期対話の状態整合性崩壊を切り分ける仕組み (arXiv:2610.31314, EMNLP 2026 Main, Shenzhen University)
 - 2026-10-26: 言葉にせずに考えを渡す──J-Commが幾何合意とJacobian座標で凍結LLM間の潜在通信を実現する仕組み (arXiv:2610.32871, University of Melbourne / Shanghai Jiao Tong University)
+- 2026-11-02: 自信のある位置が有用な位置とは限らない──Cordがマスク拡散LMのreveal順序を幾何残差で学習する仕組み (arXiv:2610.39372, Case Western Reserve / USC)
 
 ## 候选论文池
 - LLM-as-a-Judge / 評価信頼性 系最新研究
   - Prompting Strategy Effects Depend on the Judge: LLM-as-a-Judgeの堅牢性の多言語研究 (arXiv:2610.31172)
 - Reasoning / Planning 系最新研究
+  - Don't Lose the Thread / CORAL: 長期エージェントの認知資源自己割当（チェックポイント＋文脈リセット＋Multi-episode Agentic RL） (arXiv:2610.40350, COLM 2026)
 - LLM Agent / Tool-use / SFT初始化 相关
   - ReflectPO: 長期エージェント向け反思ガイド付き方針最適化 (arXiv:2610.30933)
 - Multilingual / Cross-lingual NLP
 - Efficient Inference / 推論高速化
   - HyCo: モバイル・クラウド投機デコーディングのためのハイブリッドドラフティング (arXiv:2610.21436)
+  - Raincheck: マルチターンMLLMの遅延マルチモーダルprefill（30%初期保持で残りをdecode中に段階prefill、TTFT最大24.1%削減） (arXiv:2610.39562)
 - Instruction Tuning / Alignment
 - Long Context / Context Window 拡張
   - A Reality Check of Inference-Time Context Augmentation Methods (arXiv:2610.30983)
@@ -79,6 +82,7 @@
 - Multi-Agent Reasoning
 
 ## 次回の候補補充メモ
-- 残候補：HyCo (arXiv:2610.21436)、Reality Check of Inference-Time Context Augmentation (2610.30983)、ReflectPO (2610.30933)、Judge Robustness (2610.31172)
-- 2026-10-26付けarXivからJ-Comm (2610.32871) を選定・発行済み。次回はEfficient Inference / Reasoning系を中心に1-2本補充すること
-- 10-26付けの未採用注目論文: How Much Do You Trust A Dog? (2610.32055, hint-followingの指数ティルト分析)、Beyond Final Outcomes (2610.32333, マルチエージェントの主張レベル情報動態)
+- 残候補：HyCo (2610.21436)、Reality Check of Inference-Time Context Augmentation (2610.30983)、ReflectPO (2610.30933)、Judge Robustness (2610.31172)、CORAL (2610.40350)、Raincheck (2610.39562)
+- 2026-11-02付け発行でCord (2610.39372) を選定・発行済み（10-30付けarXivから）。CORAL・Raincheckを新規補充。
+- 10-30付けの未採用注目論文: PIVOT（オンライン教師修正による段階的介入、2610.40576）、Every Token Needs Its Own Teacher（マルチ教師適応オンポリシー自己蒸留、2610.40574）、Don't Lose the Thread（=CORAL）、KV Cache Quantization for Diffusion LMs（2610.39853）、Distilling the Shape of Uncertainty（オンポリシー蒸留が学ぶものの予測、2610.39020）
+- 次回実行時に11月付け最新arXiv（11-02夕方発表分以降）からEfficient Inference系を1-2本補充すること
