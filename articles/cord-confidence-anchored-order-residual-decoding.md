@@ -3,7 +3,7 @@ title: "自信のある位置が有用な位置とは限らない──Cordが�
 emoji: "🧩"
 type: "tech"
 topics: ["自然言語処理", "拡散モデル", "LLM", "機械学習"]
-published: false
+published: true
 ---
 
 # 自信のある位置が有用な位置とは限らない──Cordがマスク拡散LMのreveal順序を幾何残差で学習する仕組み
