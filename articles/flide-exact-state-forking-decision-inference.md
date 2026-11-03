@@ -3,7 +3,7 @@ title: "速くすると答えが変わる──Flideが決定モデルの推論�
 emoji: "🌊"
 type: "tech"
 topics: ["自然言語処理", "LLM", "推論高速化", "推論エンジン"]
-published: false
+published: true
 ---
 
 # 速くすると答えが変わる──Flideが決定モデルの推論を厳密な状態フォークで9.5倍速くする仕組み
