@@ -3,7 +3,7 @@ title: "引く前に検査を済ませるな──PACTが拡散LMの並列デコ
 emoji: "🔏"
 type: "tech"
 topics: ["自然言語処理", "拡散モデル", "LLM", "推論高速化"]
-published: false
+published: true
 ---
 
 # 引く前に検査を済ませるな──PACTが拡散LMの並列デコーディングで書いたtokenそのものを認証する仕組み
