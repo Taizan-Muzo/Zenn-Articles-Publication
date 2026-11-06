@@ -3,7 +3,7 @@ title: "要約の欄は互いを見ずに書ける──SpecCompactがスロッ�
 emoji: "🗜️"
 type: "tech"
 topics: ["自然言語処理", "LLM", "LLMエージェント", "推論高速化"]
-published: false
+published: true
 ---
 
 # 要約の欄は互いを見ずに書ける──SpecCompactがスロット並列の意味投機検証でエージェントの文脈圧縮を最大5.6倍速くする仕組み
