@@ -3,7 +3,7 @@ title: "「今はいい」が「いつでもいい」になる──The Memory T
 emoji: "🪤"
 type: "tech"
 topics: ["LLM", "LLMエージェント", "メモリ", "AI安全性", "論文読解"]
-published: false
+published: true
 ---
 
 # 「今はいい」が「いつでもいい」になる──The Memory Trapが無害なやり取りの記憶から危険な振る舞いを生む仕組み
