@@ -3,7 +3,7 @@ title: "何をしたかではなく何が必要か──Agent Skillsの手続き
 emoji: "🔑"
 type: "tech"
 topics: ["LLM", "LLMエージェント", "Agent Skills", "機械学習", "論文読解"]
-published: false
+published: true
 ---
 
 # 何をしたかではなく何が必要か──Agent Skillsの手続き知識がサブエージェントの権限設計を教える仕組み
