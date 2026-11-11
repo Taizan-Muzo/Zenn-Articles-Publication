@@ -3,7 +3,7 @@ title: "正しい解が学べる解とは限らない──FPRTが学生の間�
 emoji: "🩺"
 type: "tech"
 topics: ["LLM", "蒸留", "数学推論", "機械学習", "論文読解"]
-published: false
+published: true
 ---
 
 # 正しい解が学べる解とは限らない──FPRTが学生の間違い方の診断で推論蒸留のデータを作り直す仕組み
