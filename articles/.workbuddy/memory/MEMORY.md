@@ -2,87 +2,103 @@
 
 ## 发布流程
 1. 读取本文件获取SOP与候选池
-2. 检查daily log确认今日是否已发文
-3. 从候选池选题或搜索最新论文
-4. 日语撰写精读 → matplotlib配图 → Zenn格式md
-5. 两阶段Git推送：published:false → published:true
-6. 更新daily log与MEMORY.md
+2. 检查daily log（.workbuddy/memory/YYYY-MM-DD.md）确认今日是否已发文
+3. 从候选池选题或搜索最新arXiv论文（已发布的arXiv ID勿重复，见下表）
+4. 日语撰写精读 → matplotlib配图2-4张（images/<slug>/figX.png）→ articles/<slug>.md（published: false）
+5. git add + commit + push origin main → 成功后published: true → 再次commit + push
+6. 更新daily log、本文件（已发文+候选池）、.workbuddy/automations/zenn/memory.md（简执行记录）
 
 ## 文章格式
 - Front matter: title(日语), emoji, type("tech"), topics(日语标签数组), published
 - 结构: TL;DR → 背景 → 方法详解 → 実験結果 → 考察 → 関連研究 → まとめ → 参考
-- 配图路径: `/images/<slug>/figX.png`
 - 仓库: /Users/Zhuanz/Desktop/Zenn-Articles-Publication/
 
-## 日语写作要点
-- 地道自然，避免翻译腔和AI味
-- 使用学术论文常见的日语表达：提案する、示した、達成した、有効性を検証
+## 写作与配图要点（累积教训）
+- 日语地道自然，避免翻译腔/AI味；学术表达：提案する、示した、達成した、有効性を検証
 - 图表说明用日语，技术术语保留英文原词
+- matplotlib日文字体：Hiragino Sans + fontweight（W3/W6名称未注册）；「≥」未収録→「≧」或mathtext
+- mathtext不支持\big、\ge、\le → 用\geq/\leq；上付きマイナス(U+207B)无字形→mathtext表記
+- FancyArrowPatch的linestyle用ls="-"（元组指定会报错）
+- push前跑简体字检查check_simplified.py；JIS收录字（辞随静声面雷等）会误报，用Shift_JIS编码判定兜底
+- fig出现异常大图片（数万像素）→ 坐标/比例不匹配，需重新设计子图布局
 
-## 已发布文章
-- 2026-09-04: 可読性は解釈可能性にあらず──CoT推論の判定重要性と実際の重要性の比較 (arXiv:2609.04194, COLM 2026)
-- 2026-09-05: 順次実行が同時最適化に勝つ──On-Policy DistillationとRLVRの相互作用を解き明かす (arXiv:2609.04108)
-- 2026-09-06: 自然言語仕様をコンパイルする──Compile by Trainingで再利用可能な神経関数を生成する (arXiv:2609.04199, EMNLP 2026 System Demos)
-- 2026-09-07: 多様な視点が暗記に勝つ──補助ビューがLLMの事前学習を加速する仕組み (arXiv:2609.04180, EMNLP 2026 Findings)
-- 2026-09-08: 工学が完璧でも測定は崩れる──LLMジャッジの信頼性が共有エンドポイントで破れる仕組み (arXiv:2609.04198)
-- 2026-09-09: 速さを捨てずに速くなる──Unoが離散拡散でARモデルの無損失高速化を実現する仕組み (arXiv:2609.04010)
-- 2026-09-10: 教師が書く前に生徒は実行できない──PTAがツール使用蒸留の分布ズレを断つ仕組み (arXiv:2609.04773, EMNLP 2026 Main)
-- 2026-09-11: 実行が嘘を見抜く──EDGEが韓国公開APIの多段ツール呼び出しで9Bを27Bに迫る仕組み (arXiv:2609.05395, EMNLP 2026 Industry)
-- 2026-09-12: 捨ててはいけない──Layer DropoutがLLMの訓練効率と推論弾性を同時に開く仕組み (arXiv:2609.05275, ICML 2026)
-- 2026-09-13: 見えないものを信じる──BSEがLLMエージェントにPOMDPの最適性保証を取り戻す仕組み (arXiv:2609.10036)
-- 2026-09-14: 角度が推論の宿命を決める──A*-Thought-V2が幾何力学でCoTの明示と潜在を自動で切り分ける仕組み (arXiv:2609.07821)
-- 2026-09-17: 読むことと推論を分ける──PARSERが長文脈Agentの並列読みと深い推論を両立する仕組み (arXiv:2609.06702)
-- 2026-09-18: 知識は使い方で決まる──サブエージェントとスキルの実行方式が長期タスクの性能を分ける仕組み (arXiv:2609.09233)
-- 2026-09-19: 暗黙の知識を明示する──Procedural GraphがLLMエージェントの手続きを自己進化させる仕組み (arXiv:2609.09153)
-- 2026-09-20: 環境を隠すな──ActObsが観測監督でエージェントの探索を変える仕組み (arXiv:2609.20715)
-- 2026-09-23: 「待って」より「やってる」が推論に効く──Aha-Flow DistillationがFlow Markerの見落しを正す仕組み (arXiv:2609.07036)
-- 2026-09-24: 三つの役が互いに磨き合う──UnifiedPlayersが計画・実行・評価の協調でツール推論を自己増強する仕組み (arXiv:2609.20089)
-- 2026-09-25: 成功と有用は別物──AMPLE-MathがOPSDの蒸留改善と特権情報の寄与を切り分ける仕組み (arXiv:2609.20612)
-- 2026-09-27: 外挿が教師を作る──RISEがRLVRの訓練軌跡から逐次改善の教師を自前で構築する仕組み (arXiv:2609.05295)
-- 2026-10-04: 校準データなしで切る──LILAが特異値分布のKS距離だけでLLMを構造化プルーニングする仕組み (arXiv:2609.11163)
-- 2026-10-05: 10個のPivotが256個のtokenを動かす──Pivot-SDがMasked Diffusion LMの自己蒸留を10倍効率化する仕組み (arXiv:2610.03665, EMNLP 2026 Main Oral)
-- 2026-10-05: 沈黙の名人に言葉を与える──Queenが4Bでグランドマスター級の棋力と説明を両立する仕組み (arXiv:2610.03695, Princeton)
-- 2026-10-06: 50ドルの発見を1ドル未満で──FrugalEvoが強弱2モデルの分担でLLM進化探索のコストを1/30にする仕組み (arXiv:2610.03675, NUS/UW/Stanford)
-- 2026-10-07: 記憶の先に信念を置く──PoSが明示的信念状態で長期エージェントの文脈管理を変える仕組み (arXiv:2610.01415)
-- 2026-10-07: 映像の中の物理は取り出せるか──World Embedding Benchmarkがマルチモーダル埋め込みの物理忠実性を測り直す (arXiv:2610.03632)
-- 2026-10-08: 信じる前に分解する──CRGがLLMエージェントの信頼性を主張の木に分解して推論時校準を実現する仕組み (arXiv:2610.07948)
-- 2026-10-09: 失敗を診て次を指す──Agentic AutoRAGが検索と生成の失敗帰属でRAGパイプラインを自動最適化する仕組み (arXiv:2610.08452, EMNLP 2026 REALM + NeurIPS 2026 ML4Sys)
-- 2026-10-10: 教師を信じる場所と信じない場所──UECR-GRPOがオンポリシー蒸留とGRPOをエントロピー校準信用再分配で統一する仕組み (arXiv:2609.28385)
-- 2026-10-12: どこに蒸留するかは学んで決める──BiToK-SDがTop-Kトークン選択を双レベル最適化で解く仕組み (arXiv:2610.07247)
-- 2026-10-14: チームは必要になってから増やす──DHCGが実行フィードバックで協調グラフを動的に育てる仕組み (arXiv:2610.07835)
-- 2026-10-17: 黙って考え、言葉で動く──HybridAgentが潜在推論とテキスト行動を単一の生成過程で切り替える仕組み (arXiv:2610.18861, Stanford/UIUC/Together AI)
-- 2026-10-13: 加速する側だけが世間知らず──Ospreyが投機デコードのドラフター事前学習を再利用可能にする仕組み (arXiv:2609.09338, EMNLP 2026)
+## 已发布文章（日期: arXiv ID 关键词）
+- 09-04 2609.04194 CoT可読性≠解釈可能性（COLM 2026）
+- 09-05 2609.04108 On-Policy Distillation vs RLVR
+- 09-06 2609.04199 Compile by Training（EMNLP Demo）
+- 09-07 2609.04180 補助ビュー事前学習（EMNLP Findings）
+- 09-08 2609.04198 LLMジャッジ共有エンドポイント信頼性
+- 09-09 2609.04010 Uno dAR無損失高速化
+- 09-10 2609.04773 PTA ツール蒸留分布ズレ（EMNLP Main）
+- 09-11 2609.05395 EDGE 韓国API多段ツール（EMNLP Industry）
+- 09-12 2609.05275 Layer Dropout（ICML 2026）
+- 09-13 2609.10036 BSE POMDP最適性保証
+- 09-14 2609.07821 A*-Thought-V2 幾何力学
+- 09-17 2609.06702 PARSER 並列読み+逐次推論
+- 09-18 2609.09233 サブエージェントvsスキル
+- 09-19 2609.09153 Procedural Graphs 自己進化
+- 09-20 2609.20715 ActObs 観測監督
+- 09-23 2609.07036 Aha-Flow Distillation
+- 09-24 2609.20089 UnifiedPlayers 協調RL
+- 09-25 2609.20612 AMPLE-Math OPSD特権情報
+- 09-27 2609.05295 RISE 外挿教師
+- 10-04 2609.11163 LILA 校準フリープルーニング
+- 10-05 2610.03665 Pivot-SD 自己蒸留10倍（EMNLP Oral）
+- 10-05 2610.03695 Queen 棋力+説明（Princeton）
+- 10-06 2610.03675 FrugalEvo 1/30コスト
+- 10-07 2610.01415 PoS 明示的信念状態
+- 10-07 2610.03632 World Embedding物理忠実性
+- 10-08 2610.07948 CRG 主張木校準
+- 10-09 2610.08452 Agentic AutoRAG 失敗帰属
+- 10-10 2609.28385 UECR-GRPO 蒸留+GRPO統一
+- 10-12 2610.07247 BiToK-SD 双レベルTop-K
+- 10-13 2609.09338 Osprey ドラフター事前学習（EMNLP）
+- 10-14 2610.07835 DHCG 動的協調グラフ
+- 10-17 2610.18861 HybridAgent 潜在+テキスト（Stanford）
+- 10-18 2610.21463 SpecAgent 軌跡投機（LARK）
+- 10-19 2610.21731 Retrieved but Not Read
+- 10-20 2610.22160 EMO 閉ループTTC
+- 10-21 2610.22067 LURCH 長文脈3性質
+- 10-22 2610.22019 Priming Base Models（NVIDIA）
+- 10-23 2610.22174 Mosaic マルチセッションRL
+- 10-24 2610.21496 OPRD リマインダー蒸留
+- 10-25 2610.31314 StateTrack-Bench 状態整合性（EMNLP Main）
+- 10-26 2610.32871 J-Comm 潜在通信
+- 11-02 2610.39372 Cord reveal順序残差
+- 11-03 2610.42148 Flide 状態フォーク9.5倍
+- 11-05 2611.04152 PACT token認証
+- 11-06 2611.06876 SpecCompact スロット並列（NYU）
+- 11-08 2611.07554 The Memory Trap（Princeton+Anthropic）
+- 11-09 2611.07845 Masked diffusion as RSA理論（QMUL）
+- 11-10 2611.08905 From Procedures to Permissions サブエージェント権限（清華+Samsung）
+- 11-11 2611.09042 FPRT 失敗プロファイリング+到達可能軌跡（NeurIPS 2026）
 
-- 2026-10-18: 強いモデルは査読に回る──SpecAgentが軌跡単位の投機実行でエージェントの帯域と時間を半減する仕組み (arXiv:2610.21463, LARK/HKUST-GZ/Yinwang/Cambridge)
-- 2026-10-19: 取り出したのに読まない──検索拡張LLMが証拠を眼前にして古い答えを返す仕組み (arXiv:2610.21731, Imperial College London)
-- 2026-10-20: 文脈を直し、logitを曲げる──EMOが閉ループtest-time計算で凍結LLMを伸ばす仕組み (arXiv:2610.22160, Peking University & Samsung Research Beijing)
-- 2026-10-21: 読める長さが解ける長さとは限らない──LURCHが長文脈推論の難しさをスコープ・分散・深さで切り分ける仕組み (arXiv:2610.22067, University of Edinburgh)
-- 2026-10-22: 型を教える前に現場を読ませる──オープン・ミッドトレーニングがSWEエージェントの下地を500Bトークンで作る仕組み (arXiv:2610.22019, NVIDIA)
-- 2026-10-23: 切れても一つの軌跡──Mosaicがマルチセッション・エージェンティックRLの信用割当てを階層化する仕組み (arXiv:2610.22174, LARK/HKUST-GZ + Huawei)
-- 2026-10-24: 「言われれば直る」を重みへ移す──OPRDがスコープ付きリマインダー蒸留で長期コーディングエージェントを鍛える仕組み (arXiv:2610.21496, Tsinghua/Shanghai AI Lab/NUS)
-- 2026-10-25: 覚えているのに守らない──StateTrack-Benchが長期対話の状態整合性崩壊を切り分ける仕組み (arXiv:2610.31314, EMNLP 2026 Main, Shenzhen University)
-- 2026-10-26: 言葉にせずに考えを渡す──J-Commが幾何合意とJacobian座標で凍結LLM間の潜在通信を実現する仕組み (arXiv:2610.32871, University of Melbourne / Shanghai Jiao Tong University)
-- 2026-11-02: 自信のある位置が有用な位置とは限らない──Cordがマスク拡散LMのreveal順序を幾何残差で学習する仕組み (arXiv:2610.39372, Case Western Reserve / USC)
+dLLM系譜（関連研究用）: Uno→Pivot-SD→Cord→PACT→RSA理論。投機系: Osprey→SpecAgent→SpecCompact。
 
-## 候选论文池
-- LLM-as-a-Judge / 評価信頼性 系最新研究
-  - Prompting Strategy Effects Depend on the Judge: LLM-as-a-Judgeの堅牢性の多言語研究 (arXiv:2610.31172)
-- Reasoning / Planning 系最新研究
-  - Don't Lose the Thread / CORAL: 長期エージェントの認知資源自己割当（チェックポイント＋文脈リセット＋Multi-episode Agentic RL） (arXiv:2610.40350, COLM 2026)
-- LLM Agent / Tool-use / SFT初始化 相关
-  - ReflectPO: 長期エージェント向け反思ガイド付き方針最適化 (arXiv:2610.30933)
-- Multilingual / Cross-lingual NLP
-- Efficient Inference / 推論高速化
-  - HyCo: モバイル・クラウド投機デコーディングのためのハイブリッドドラフティング (arXiv:2610.21436)
-  - Raincheck: マルチターンMLLMの遅延マルチモーダルprefill（30%初期保持で残りをdecode中に段階prefill、TTFT最大24.1%削減） (arXiv:2610.39562)
-- Instruction Tuning / Alignment
-- Long Context / Context Window 拡張
-  - A Reality Check of Inference-Time Context Augmentation Methods (arXiv:2610.30983)
-- Agent Behavior / Programmatic Specification
-- Multi-Agent Reasoning
+## 候选论文池（21本）
+- Judge Robustness（2610.31172）LLM-as-a-Judge多言語堅牢性
+- CORAL（2610.40350, COLM 2026）長期エージェント認知資源自己割当（チェックポイント+文脈リセット+multi-episode agentic RL）
+- ReflectPO（2610.30933）長期エージェント反思ガイド付き方針最適化
+- Prospective Memory（2611.05731）見越し記憶で先回りするエージェント
+- HyCo（2610.21436）モバイル・クラウド投機デコーディング・ハイブリッドドラフティング
+- Raincheck（2610.39562）マルチターンMLLM遅延prefill、TTFT最大24.1%削減
+- ZHA（2610.42112）階層木インデクサでサブ二次attention、1M超で優位
+- TraceSpec（2610.41177）LLMエージェント投機デコーディングの理解と改善
+- Character-Length Control dLLM（2611.06371, EMNLP 2026 Main）訓練不要の文字数制御要約
+- SpecCTMC（2611.08362）dLLM連続時間CTMC投機化、逐次評価1.73-4.38倍削減
+- Measured Coupling（2611.08307, Tel Aviv）dLLM並列デコーディング実測カップリング、訓練不要
+- O2PD（2611.07731）overlap-gatedオンポリシー蒸留、prefix 20%のみ教師監督が信頼できる
+- Reality Check of Inference-Time Context Augmentation（2610.30983）
+- Beyond K/V Caches / HST（2611.08133）ハイブリッド線形attention状態ハンドオフ、保持率89.88%・21.66倍
+- RecSA（2611.07232）再帰疎attention、選択O(log L)、32K訓練で2M外挿、RULER 1M 60.5
+- DUET（2611.09239）block diffusion LM双スパース推論（南京大）
+- RidgeFill（2611.09709）訓練不要の後層キャッシュ充填でprefill高速化、50頁
+- QGPM（2611.09554）クエリ誘導RoPE変調でlost-in-the-middle緩和（USC）
+- FPRT（2611.09042, NeurIPS 2026）推論蒸留の失敗プロファイリング+到達可能軌跡選択 → 11-11発行済み
+- MemoryDojo（2611.09721）LLMエージェントメモリ経由のポイズニング・ベンチマーク
+- Lost in Rounding（2611.12127）bf16再帰状態がハイブリッド推論モデルを長考化、SRで解決（Qwen3.5-9B精度85.6→70.8の原因）
+- AgentOPSD（2611.12587）再帰的信念改訂（log-odds空間ベイズ更新）でターン単位信用割当て、ALFWorld 89.1%
 
 ## 次回の候補補充メモ
-- 残候補：HyCo (2610.21436)、Reality Check of Inference-Time Context Augmentation (2610.30983)、ReflectPO (2610.30933)、Judge Robustness (2610.31172)、CORAL (2610.40350)、Raincheck (2610.39562)
-- 2026-11-02付け発行でCord (2610.39372) を選定・発行済み（10-30付けarXivから）。CORAL・Raincheckを新規補充。
-- 10-30付けの未採用注目論文: PIVOT（オンライン教師修正による段階的介入、2610.40576）、Every Token Needs Its Own Teacher（マルチ教師適応オンポリシー自己蒸留、2610.40574）、Don't Lose the Thread（=CORAL）、KV Cache Quantization for Diffusion LMs（2610.39853）、Distilling the Shape of Uncertainty（オンポリシー蒸留が学ぶものの予測、2610.39020）
-- 次回実行時に11月付け最新arXiv（11-02夕方発表分以降）からEfficient Inference系を1-2本補充すること
+- 次回実行時に11-11/11-12付けarXiv新着から1-2本補充すること（11-11実行時点で11-09付け投稿分まで走査済み）
+- 2026-11-11付け発行でFPRT (2611.09042) を選定・発行済み。蒸留系を発行したため次回は多様性を意識（Lost in Rounding=数値精度・QGPM=長文脈・MemoryDojo=メモリ安全・AgentOPSD=エージェントRLなど）
