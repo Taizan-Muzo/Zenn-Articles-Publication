@@ -72,10 +72,11 @@
 - 11-09 2611.07845 Masked diffusion as RSA理論（QMUL）
 - 11-10 2611.08905 From Procedures to Permissions サブエージェント権限（清華+Samsung）
 - 11-11 2611.09042 FPRT 失敗プロファイリング+到達可能軌跡（NeurIPS 2026）
+- 11-13 2611.12127 Lost in Rounding bf16再帰状態長考化（PayPal AI）
 
-dLLM系譜（関連研究用）: Uno→Pivot-SD→Cord→PACT→RSA理論。投機系: Osprey→SpecAgent→SpecCompact。
+dLLM系譜（関連研究用）: Uno→Pivot-SD→Cord→PACT→RSA理論。投機系: Osprey→SpecAgent→SpecCompact。数値精度系: Lost in Rounding。
 
-## 候选论文池（21本）
+## 候选论文池（22本）
 - Judge Robustness（2610.31172）LLM-as-a-Judge多言語堅牢性
 - CORAL（2610.40350, COLM 2026）長期エージェント認知資源自己割当（チェックポイント+文脈リセット+multi-episode agentic RL）
 - ReflectPO（2610.30933）長期エージェント反思ガイド付き方針最適化
@@ -94,11 +95,11 @@ dLLM系譜（関連研究用）: Uno→Pivot-SD→Cord→PACT→RSA理論。投�
 - DUET（2611.09239）block diffusion LM双スパース推論（南京大）
 - RidgeFill（2611.09709）訓練不要の後層キャッシュ充填でprefill高速化、50頁
 - QGPM（2611.09554）クエリ誘導RoPE変調でlost-in-the-middle緩和（USC）
-- FPRT（2611.09042, NeurIPS 2026）推論蒸留の失敗プロファイリング+到達可能軌跡選択 → 11-11発行済み
 - MemoryDojo（2611.09721）LLMエージェントメモリ経由のポイズニング・ベンチマーク
-- Lost in Rounding（2611.12127）bf16再帰状態がハイブリッド推論モデルを長考化、SRで解決（Qwen3.5-9B精度85.6→70.8の原因）
 - AgentOPSD（2611.12587）再帰的信念改訂（log-odds空間ベイズ更新）でターン単位信用割当て、ALFWorld 89.1%
+- Overlapping Block Denoising（2611.14387）dLLMのブロック境界を重複させてデノイズ、効率化（dLLM系譜候補）
+- On-Policy Mid-Training Distillation（2611.13855）受動的模倣を超えるオンポリシー・ミッドトレーニング蒸留
 
 ## 次回の候補補充メモ
-- 次回実行時に11-11/11-12付けarXiv新着から1-2本補充すること（11-11実行時点で11-09付け投稿分まで走査済み）
-- 2026-11-11付け発行でFPRT (2611.09042) を選定・発行済み。蒸留系を発行したため次回は多様性を意識（Lost in Rounding=数値精度・QGPM=長文脈・MemoryDojo=メモリ安全・AgentOPSD=エージェントRLなど）
+- 次回実行時に11-12/11-13付けarXiv新着から1-2本補充すること（11-13実行時点で11-11付けアナウンス分（上位50件）まで走査済み。11-11付けは全112件中50件しか見ていないため残りも覗いてよい）
+- 2026-11-13付け発行でLost in Rounding (2611.12127) を選定・発行済み。数値精度・測定研究を発行したため次回は多様性を意識（AgentOPSD=エージェントRL・CORAL=長期エージェント・QGPM=長文脈・MemoryDojo=メモリ安全・Judge Robustness=評価系など）
