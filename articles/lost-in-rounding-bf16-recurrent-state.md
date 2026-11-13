@@ -3,7 +3,7 @@ title: "丸められた状態は忘れられない──bf16再帰キャッシ�
 emoji: "🧮"
 type: "tech"
 topics: ["LLM", "数値精度", "量子化", "Mamba", "論文読解"]
-published: false
+published: true
 ---
 
 # 丸められた状態は忘れられない──bf16再帰キャッシュがハイブリッド推論モデルを長考させる仕組み
