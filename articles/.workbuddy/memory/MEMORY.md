@@ -73,12 +73,12 @@
 - 11-10 2611.08905 From Procedures to Permissions サブエージェント権限（清華+Samsung）
 - 11-11 2611.09042 FPRT 失敗プロファイリング+到達可能軌跡（NeurIPS 2026）
 - 11-13 2611.12127 Lost in Rounding bf16再帰状態長考化（PayPal AI）
+- 11-14 2610.40350 CORAL 認知的オフロード文脈整理（COLM 2026）
 
-dLLM系譜（関連研究用）: Uno→Pivot-SD→Cord→PACT→RSA理論。投機系: Osprey→SpecAgent→SpecCompact。数値精度系: Lost in Rounding。
+dLLM系譜（関連研究用）: Uno→Pivot-SD→Cord→PACT→RSA理論→（候補: DiVR再生成）。投機系: Osprey→SpecAgent→SpecCompact。数値精度系: Lost in Rounding。長期エージェント記憶系: StateTrack→Memory Trap→CORAL→（候補: MAPE）。
 
-## 候选论文池（22本）
+## 候选论文池（23本）
 - Judge Robustness（2610.31172）LLM-as-a-Judge多言語堅牢性
-- CORAL（2610.40350, COLM 2026）長期エージェント認知資源自己割当（チェックポイント+文脈リセット+multi-episode agentic RL）
 - ReflectPO（2610.30933）長期エージェント反思ガイド付き方針最適化
 - Prospective Memory（2611.05731）見越し記憶で先回りするエージェント
 - HyCo（2610.21436）モバイル・クラウド投機デコーディング・ハイブリッドドラフティング
@@ -99,7 +99,10 @@ dLLM系譜（関連研究用）: Uno→Pivot-SD→Cord→PACT→RSA理論。投�
 - AgentOPSD（2611.12587）再帰的信念改訂（log-odds空間ベイズ更新）でターン単位信用割当て、ALFWorld 89.1%
 - Overlapping Block Denoising（2611.14387）dLLMのブロック境界を重複させてデノイズ、効率化（dLLM系譜候補）
 - On-Policy Mid-Training Distillation（2611.13855）受動的模倣を超えるオンポリシー・ミッドトレーニング蒸留
+- DiVR（2611.17320, 11-12投稿）dLLMのremasking再生成タイミングを学習するverifier、隠れ状態の誤り情報+孤立remasking再現性の診断、LLaDA-8B 35.3→43.4%（greedy比1.9-3.5倍コスト）
+- MAPE（2611.17068, 11-12投稿）プログラム進化でエージェントメモリ設計を最小シードから進化、LoCoMo/LongMemEval最大+12%・servingコスト35%、raw会話保持+クエリ意図合成の2設計パターン
 
 ## 次回の候補補充メモ
-- 次回実行時に11-12/11-13付けarXiv新着から1-2本補充すること（11-13実行時点で11-11付けアナウンス分（上位50件）まで走査済み。11-11付けは全112件中50件しか見ていないため残りも覗いてよい）
-- 2026-11-13付け発行でLost in Rounding (2611.12127) を選定・発行済み。数値精度・測定研究を発行したため次回は多様性を意識（AgentOPSD=エージェントRL・CORAL=長期エージェント・QGPM=長文脈・MemoryDojo=メモリ安全・Judge Robustness=評価系など）
+- 次回実行時に11-14/11-15付けarXiv新着から1-2本補充すること（11-14実行時点で11-13付けアナウンス分（135件）の上位50件まで走査済み。残り85件も覗いてよい）
+- 2026-11-14付け発行でCORAL (2610.40350) を選定・発行済み。長期エージェント・文脈管理を発行したため次回は多様性を意識（dLLM系が候補池に6本と偏重気味→Judge Robustness=評価系・QGPM=長文脈・Reality Check=測定系・Raincheck=MLLMなどが良候補）
+
