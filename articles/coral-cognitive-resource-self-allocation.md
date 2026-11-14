@@ -3,7 +3,7 @@ title: "忘れるために書き出す──CORALが認知的オフロードで�
 emoji: "📝"
 type: "tech"
 topics: ["LLM", "エージェント", "強化学習", "長期タスク", "論文読解"]
-published: false
+published: true
 ---
 
 # 忘れるために書き出す──CORALが認知的オフロードで長期エージェントの文脈を自ら整理する仕組み
