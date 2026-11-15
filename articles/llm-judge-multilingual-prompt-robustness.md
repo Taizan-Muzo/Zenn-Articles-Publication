@@ -3,7 +3,7 @@ title: "効くプロンプトは審査員次第──多言語LLM-as-a-Judgeで�
 emoji: "⚖️"
 type: "tech"
 topics: ["LLM", "自然言語処理", "評価", "多言語NLP", "論文読解"]
-published: false
+published: true
 ---
 
 # 効くプロンプトは審査員次第──多言語LLM-as-a-Judgeで戦略効果がモデル間で反転する仕組み
