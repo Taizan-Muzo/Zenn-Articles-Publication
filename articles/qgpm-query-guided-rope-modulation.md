@@ -3,7 +3,7 @@ title: "トークンは1つも動かさず距離を縮める──QGPMがクエ�
 emoji: "🧲"
 type: "tech"
 topics: ["LLM", "長文脈", "RoPE", "Lost in the Middle", "論文読解"]
-published: false
+published: true
 ---
 
 # トークンは1つも動かさず距離を縮める──QGPMがクエリ誘導RoPE変調でlost-in-the-middleと戦う仕組み
